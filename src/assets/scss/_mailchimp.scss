@@ -1,0 +1,99 @@
+.mailchimp-one {
+    background-color: $thm-base-color;
+    padding: 120px 0;
+
+    .my-auto {
+        width: 100%;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+    }
+
+    &__icon {
+
+        i {
+            color: $thm-base-color;
+            font-size: 53px;
+
+            margin-left: 10px;
+            margin-right: 25px;
+            width: 112px;
+            height: 112px;
+            border-radius: 50%;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+
+            position: relative;
+
+            &:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -10px;
+                width: 100%;
+                height: 100%;
+                border: 2px solid #fff;
+                border-radius: 50%;
+                transition: all .4s ease;
+            }
+
+            &:hover {
+                &:after {
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    &__title {
+        margin: 0;
+        color: #fff;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: -.04em;
+    }
+
+    &__form {
+        position: relative;
+
+        input {
+            border: none;
+            outline: none;
+            background-color: transparent;
+            width: 100%;
+            height: 77px;
+            background-color: #fff;
+            color: #81868a;
+            font-size: 16px;
+            padding-left: 30px;
+
+            @include placeholder() {
+                color: #81868a;
+            }
+
+        }
+
+        .thm-btn {
+            background-color: $thm-black;
+            color: #fff;
+
+            padding: 0;
+            line-height: 77px;
+            width: 159px;
+
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            &:hover {
+                color: #fff;
+                background-color: $thm-base-color-2;
+            }
+        }
+    }
+}

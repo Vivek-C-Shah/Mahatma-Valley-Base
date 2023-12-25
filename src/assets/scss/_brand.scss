@@ -1,0 +1,35 @@
+.brand-one {
+    padding: 120.5px 0;
+
+    &__home-three {
+
+        border-top: 2px solid #f1f1f1;
+    }
+}
+
+.brand-one__carousel {
+    padding-left: 45px;
+    padding-right: 45px;
+
+    img {
+        opacity: 0.2;
+        transition: all .4s ease;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}
+
+
+.brand-two {
+    padding: 120px 0;
+    border-top: 2px solid #f1f1f1;
+
+    .block-title__title {
+        font-size: 24px;
+        font-weight: bold;
+        color: $thm-black;
+        margin: 0;
+    }
+}

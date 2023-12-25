@@ -1,0 +1,68 @@
+.inner-banner {
+    background-color: #011928;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-image: url(../images/inner-bg-1-1.jpg);
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #011928;
+        opacity: 0.5;
+    }
+
+    .container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 169px;
+    }
+}
+
+.inner-banner__title {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: -25px;
+
+}
+
+.thm-breadcrumb {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+
+        font-size: 20px;
+        text-transform: capitalize;
+
+        a {
+            color: #fff;
+
+        }
+
+        +li {
+            &::before {
+                content: '.';
+                color: #fff;
+                margin-left: 15px;
+                margin-right: 15px;
+
+            }
+        }
+    }
+}

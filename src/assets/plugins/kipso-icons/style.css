@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'kipso-icon';
+  src:  url('fonts/kipso-icon.eot?6gpu4f');
+  src:  url('fonts/kipso-icon.eot?6gpu4f#iefix') format('embedded-opentype'),
+    url('fonts/kipso-icon.ttf?6gpu4f') format('truetype'),
+    url('fonts/kipso-icon.woff?6gpu4f') format('woff'),
+    url('fonts/kipso-icon.svg?6gpu4f#kipso-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="kipso-icon-"], [class*=" kipso-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'kipso-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.kipso-icon-plus-symbol:before {
+  content: "\e915";
+}
+.kipso-icon-contact:before {
+  content: "\e912";
+}
+.kipso-icon-placeholder:before {
+  content: "\e913";
+}
+.kipso-icon-manager:before {
+  content: "\e914";
+}
+.kipso-icon-web-programming:before {
+  content: "\e900";
+}
+.kipso-icon-training:before {
+  content: "\e901";
+}
+.kipso-icon-targeting:before {
+  content: "\e902";
+}
+.kipso-icon-strategy:before {
+  content: "\e903";
+}
+.kipso-icon-professor:before {
+  content: "\e904";
+}
+.kipso-icon-music-player:before {
+  content: "\e905";
+}
+.kipso-icon-magnifying-glass:before {
+  content: "\e906";
+}
+.kipso-icon-left-arrow:before {
+  content: "\e907";
+}
+.kipso-icon-right-arrow:before {
+  content: "\e90f";
+}
+.kipso-icon-top-arrow:before {
+  content: "\e910";
+}
+.kipso-icon-bottom-arrow:before {
+  content: "\e911";
+}
+.kipso-icon-knowledge:before {
+  content: "\e908";
+}
+.kipso-icon-human-resources:before {
+  content: "\e909";
+}
+.kipso-icon-health:before {
+  content: "\e90a";
+}
+.kipso-icon-email:before {
+  content: "\e90b";
+}
+.kipso-icon-desktop:before {
+  content: "\e90c";
+}
+.kipso-icon-camera:before {
+  content: "\e90d";
+}
+.kipso-icon-menu:before {
+  content: "\e90e";
+}
+.kipso-icon-black-graduation-cap-tool-of-university-student-for-head:before {
+  content: "\e916";
+}

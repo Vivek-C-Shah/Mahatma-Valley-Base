@@ -1,0 +1,202 @@
+.sidebar {
+    @media(max-width: 991px) {
+        margin-top: 50px;
+    }
+
+    &__title {
+        margin: 0;
+        color: $thm-black;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    &__single:not(&__search) {
+        padding: 50px;
+        background-color: rgb(241, 241, 241);
+    }
+
+    &__single+&__single {
+        margin-top: 30px;
+    }
+
+    &__post {
+        &__single+&__single {
+            margin-top: 30px;
+        }
+
+        &-image,
+        &-content {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        &-image {
+            width: 60px;
+
+            .inner-block {
+                width: 100%;
+
+                >img {
+                    width: 100%;
+                }
+            }
+        }
+
+        &-content {
+            padding-left: 20px;
+        }
+
+        &-title {
+            margin: 0;
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 500;
+            color: $thm-black;
+
+            a {
+                color: $thm-black;
+                transition: all .4s ease;
+
+                &:hover {
+                    color: $thm-black;
+                }
+            }
+        }
+    }
+
+    &__category-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        &-item {
+
+            line-height: 1em;
+
+            a {
+                color: #7B7F85;
+                font-size: 16px;
+                font-weight: 500;
+                display: block;
+                position: relative;
+                transition: all .4s ease;
+
+                &:before {
+                    content: '\f105';
+                    font-family: 'Font Awesome 5 Free';
+                    color: $thm-black;
+                    font-weight: 900;
+                    font-size: 14px;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                    transition: all .4s ease;
+                }
+
+                &:hover {
+                    color: $thm-black;
+                }
+            }
+        }
+
+        &-item+&-item {
+            margin-top: 27px;
+        }
+    }
+
+    &__tags-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-top: -10px;
+
+        &-item {
+            display: inline-block;
+            vertical-align: middle;
+
+            line-height: 1em;
+
+            a {
+                display: block;
+                color: #7B7F85;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1em;
+                transition: all .4s ease;
+
+                &:hover {
+                    color: $thm-black;
+                }
+            }
+        }
+    }
+
+    &__search-form {
+        width: 100%;
+        height: 79px;
+        background-color: rgb(241, 241, 241);
+        position: relative;
+
+        input {
+            width: 100%;
+            height: 100%;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: $thm-text-color;
+            padding-left: 40px;
+            padding-right: 40px;
+
+            @include placeholder {
+                color: $thm-text-color;
+            }
+        }
+
+        button[type=submit] {
+            width: 41px;
+            height: 41px;
+            border-radius: 50%;
+            background-color: $thm-base-color;
+            border: none;
+            outline: none;
+            position: absolute;
+            top: 50%;
+            right: 40px;
+            transform: translateY(-50%);
+            cursor: pointer;
+            padding: 0;
+            transition: all .4s ease;
+
+
+            i {
+                font-size: 14px;
+                color: #fff;
+                line-height: 41px;
+                transition: all .4s ease;
+            }
+
+            &:before {
+                content: '';
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                border: 1px solid $thm-base-color;
+                position: absolute;
+                left: -5px;
+                top: 0;
+                transition: all .4s ease;
+            }
+
+
+            &:hover {
+
+
+                &:before {
+                    left: 0;
+                }
+            }
+        }
+    }
+}

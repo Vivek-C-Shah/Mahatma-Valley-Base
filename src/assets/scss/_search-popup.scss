@@ -1,0 +1,88 @@
+.search-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    transform: scale(1, 0);
+    transform-origin: bottom center;
+    transition: transform .7s ease;
+
+
+    &.active {
+        transform-origin: top center;
+        transform: scale(1, 1);
+    }
+
+
+    &__overlay {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 999;
+        opacity: .7;
+        cursor: none;
+    }
+
+
+    &__inner {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    &__form {
+        position: relative;
+        z-index: 9991;
+        width: 100%;
+        padding: 15px;
+        max-width: 600px;
+        position: relative;
+
+        input {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            width: 100%;
+            height: 60px;
+            color: $thm-black;
+            font-size: 18px;
+            background-color: rgba(#fff, 1);
+            padding-left: 30px;
+
+            @include placeholder {
+                color: $thm-black;
+            }
+        }
+
+        button[type=submit] {
+            border: none;
+            outline: none;
+            width: 60px;
+            height: 60px;
+            color: #fff;
+            background-color: $thm-base-color;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            transition: all .4s ease;
+
+            &:hover {
+                background-color: $thm-black;
+                color: $thm-base-color;
+            }
+        }
+    }
+}

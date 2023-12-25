@@ -1,0 +1,95 @@
+.meeting-one {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    &__block-text {
+        margin: 0;
+        font-size: 16px;
+        line-height: 34px;
+        font-weight: 500;
+    }
+
+    &__content {
+        @media (min-width: 992px) {
+            padding-left: 60px;
+        }
+    }
+
+    &__box-wrap {
+        display: flex;
+        margin-top: 115px;
+    }
+
+    &__box {
+        background-color: #f1f1f1;
+        width: 200px;
+        height: 221px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    &__box+&__box {
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    &__title {
+        margin: 0;
+        color: $thm-black;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1em;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        margin: 0;
+        font-size: 14px;
+        color: $thm-text-color;
+        line-height: 1em;
+    }
+
+    &__bubble {
+        background-color: $thm-base-color-2;
+        position: absolute;
+        bottom: calc(100% + 15px);
+        right: -30px;
+        color: #fff;
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 600;
+        text-align: left;
+        padding: 15px 20px;
+        max-width: 192px;
+        box-shadow: 0px 10px 30px 0px rgba(4, 5, 5, 0.1);
+
+
+        &:before {
+            content: '';
+            width: 24px;
+            height: 17px;
+            position: absolute;
+            top: 100%;
+            left: 30px;
+            background-color: $thm-base-color-2;
+            clip-path: polygon(0 0, 0% 100%, 100% 0);
+        }
+    }
+
+    &__box:nth-child(even) &__bubble:before,
+    &__box:nth-child(even) &__bubble {
+        background-color: $thm-base-color;
+
+    }
+
+
+}
