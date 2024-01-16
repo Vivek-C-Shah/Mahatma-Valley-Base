@@ -1,94 +1,82 @@
-import React from "react";
-import gallery1 from "../assets/images/gallery-1-1.jpg";
-import gallery2 from "../assets/images/gallery-1-2.jpg";
-import gallery3 from "../assets/images/gallery-1-3.jpg";
-import gallery4 from "../assets/images/gallery-1-4.jpg";
-import gallery5 from "../assets/images/gallery-1-5.jpg";
-import gallery6 from "../assets/images/gallery-1-6.jpg";
-import gallery7 from "../assets/images/gallery-1-7.jpg";
-import gallery8 from "../assets/images/gallery-1-8.jpg";
-import gallery9 from "../assets/images/gallery-1-9.jpg";
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const Gallery = () => {
+  const [images, setImages] = useState([]);
+  const [categories, setCategories] = useState([]);
+  const [filteredImages, setFilteredImages] = useState([]);
+  const [singleImage, setSingleImage] = useState(null);
+
+  const API_URL = "http://localhost:8000";
+
+  useEffect(() => {
+    const fetchImages = async () => {
+      const res = await axios.get(`${API_URL}/api/v1/get/images`);
+      setImages(res.data);
+      setFilteredImages(res.data);
+    };
+
+    const fetchCategories = async () => {
+      const res = await axios.get(`${API_URL}/api/v1/get/categories`);
+      setCategories(res.data);
+    };
+
+    fetchImages();
+    fetchCategories();
+  }, []);
+
+  const handleCategoryClick = async (categoryId) => {
+    if (categoryId === 'all') {
+      setFilteredImages(images);
+    } else {
+      const res = await axios.get(`${API_URL}/api/v1/get/images?category=${categoryId}`);
+      setFilteredImages(res.data);
+    }
+  };
+
   return (
-    <section className="gallery-one">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-4 col-md-6">
-            <div className="gallery-one__single">
-              <img src={gallery1} alt="" />
-              <a href={gallery1} className="gallery-one__popup img-popup">
-                <i className="kipso-icon-plus-symbol"></i>
-              </a>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="gallery-one__single">
-              <img src={gallery2} alt="" />
-              <a href={gallery2} className="gallery-one__popup img-popup">
-                <i className="kipso-icon-plus-symbol"></i>
-              </a>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="gallery-one__single">
-              <img src={gallery3} alt="" />
-              <a href={gallery3} className="gallery-one__popup img-popup">
-                <i className="kipso-icon-plus-symbol"></i>
-              </a>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="gallery-one__single">
-              <img src={gallery4} alt="" />
-              <a href={gallery4} className="gallery-one__popup img-popup">
-                <i className="kipso-icon-plus-symbol"></i>
-              </a>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="gallery-one__single">
-              <img src={gallery5} alt="" />
-              <a href={gallery5} className="gallery-one__popup img-popup">
-                <i className="kipso-icon-plus-symbol"></i>
-              </a>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="gallery-one__single">
-              <img src={gallery6} alt="" />
-              <a href={gallery6} className="gallery-one__popup img-popup">
-                <i className="kipso-icon-plus-symbol"></i>
-              </a>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="gallery-one__single">
-              <img src={gallery7} alt="" />
-              <a href={gallery7} className="gallery-one__popup img-popup">
-                <i className="kipso-icon-plus-symbol"></i>
-              </a>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="gallery-one__single">
-              <img src={gallery8} alt="" />
-              <a href={gallery8} className="gallery-one__popup img-popup">
-                <i className="kipso-icon-plus-symbol"></i>
-              </a>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="gallery-one__single">
-              <img src={gallery9} alt="" />
-              <a href={gallery9} className="gallery-one__popup img-popup">
-                <i className="kipso-icon-plus-symbol"></i>
-              </a>
-            </div>
-          </div>
+    <div className="container my-3">
+      <div className="row ">
+        <div align="center">
+          <button
+            onClick={() => handleCategoryClick('all')}
+            className="btn btn-primary filter-button"
+            data-filter="all"
+          >
+            All
+          </button>
+
+          {categories &&
+            categories.map((item) => {
+              return (
+                <button
+                  onClick={() => handleCategoryClick(item._id)}
+                  className="btn btn-default filter-button border mx-2"
+                  data-filter="hdpe"
+                >
+                  {item.name}
+                </button>
+              );
+            })}
         </div>
+
+        <br />
+
+        {filteredImages &&
+          filteredImages.map((item) => {
+            return (
+              <div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe my-4">
+  <img
+    src={`http://localhost:8000/${item.name}`}
+    className="img img-responsive"
+    height="300px"
+    width="300px"
+  />
+</div>
+            );
+          })}
       </div>
-    </section>
+    </div>
   );
 };
 
