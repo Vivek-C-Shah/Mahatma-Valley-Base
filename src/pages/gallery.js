@@ -4,6 +4,7 @@ import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
 import Gallery from "../components/Gallery";
+import { Provider } from "react-redux";
 
 const GalleryPage = () => {
   return (
