@@ -78,7 +78,7 @@ class NavOne extends Component {
                 <img
                   src={logo}
                   className="main-logo"
-                  width="128"
+                  width="180"
                   alt="Awesome alter text"
                 />
               </Link>
@@ -104,31 +104,6 @@ class NavOne extends Component {
               <ul className=" navigation-box">
                 <li className="current">
                   <Link to="/">Home</Link>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/">Home 01</Link>
-                    </li>
-                    <li>
-                      <Link to="/index-2">Home 02</Link>
-                    </li>
-                    <li>
-                      <Link to="/index-3">Home 03</Link>
-                    </li>
-                    <li>
-                      <a href="#none">Header Versions</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <Link to="/">Header 01</Link>
-                        </li>
-                        <li>
-                          <Link to="/index-2">Header 02</Link>
-                        </li>
-                        <li>
-                          <Link to="/index-3">Header 03</Link>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
                 </li>
                 <li>
                   <a href="#none">Pages</a>
@@ -160,20 +135,10 @@ class NavOne extends Component {
                 </li>
                 <li>
                   <Link to="/teachers">Teachers</Link>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/teachers">Teachers</Link>
-                    </li>
-                    <li>
-                      <Link to="/teacher-details">Teachers Details</Link>
-                    </li>
-                    <li>
-                      <Link to="/become-teacher">Become Teacher</Link>
-                    </li>
-                  </ul>
                 </li>
                 <li>
                   <Link to="/news">News</Link>
+
                   <ul className="sub-menu">
                     <li>
                       <Link to="/news">News Page</Link>

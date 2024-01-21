@@ -17,30 +17,6 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-xl-3 col-lg-6 col-sm-12">
-                <div className="footer-widget footer-widget__contact">
-                  <h2 className="footer-widget__title">Courses</h2>
-                  <ul className="list-unstyled footer-widget__course-list">
-                    <li>
-                      <h2>
-                        <a href="course-details.html">
-                          Introduction Web Design
-                        </a>
-                      </h2>
-                      <p>Mike Hardson</p>
-                    </li>
-                    <li>
-                      <h2>
-                        <a href="course-details.html">
-                          {" "}
-                          Learning MBA Management{" "}
-                        </a>
-                      </h2>
-                      <p>Jessica Brown</p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__link">
                   <h2 className="footer-widget__title">Explore</h2>
                   <div className="footer-widget__link-wrap">
@@ -49,19 +25,12 @@ const Footer = () => {
                         <a href="#none">About</a>
                       </li>
                       <li>
-                        <a href="#none">Overview</a>
-                      </li>
-                      <li>
                         <a href="#none">Teachers</a>
                       </li>
                       <li>
-                        <a href="#none">Join Us</a>
+                        <a href="#none">Admissions</a>
                       </li>
-                      <li>
-                        <a href="#none">Our News</a>
-                      </li>
-                    </ul>
-                    <ul className="list-unstyled footer-widget__link-list">
+
                       <li>
                         <a href="#none">Help </a>
                       </li>
@@ -69,7 +38,7 @@ const Footer = () => {
                         <a href="#none">Contact</a>
                       </li>
                       <li>
-                        <a href="#none">Register Now</a>
+                        <a href="#none">Gallery</a>
                       </li>
                     </ul>
                   </div>
@@ -112,7 +81,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-6 col-sm-12">
+              <div className="col-xl-6 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__about">
                   <h2 className="footer-widget__title">About</h2>
                   <p className="footer-widget__text">
