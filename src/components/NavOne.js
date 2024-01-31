@@ -15,7 +15,7 @@ class NavOne extends Component {
     this.mobileMenu();
 
     //Search Toggle
-    this.serachButton();
+    // this.serachButton();
   }
 
   componentWillUnmount() {
@@ -45,25 +45,6 @@ class NavOne extends Component {
     });
   };
 
-  serachButton = () => {
-    let searchToggle = document.querySelector(".search-toggle");
-    let searchPopup = document.querySelector(".search-popup");
-    let searchClose = document.querySelector(".cancel");
-    let searchOverlay = document.querySelector(".search-overlay");
-
-    searchToggle.addEventListener("click", function () {
-      searchPopup.classList.add("active");
-    });
-
-    searchClose.addEventListener("click", function () {
-      searchPopup.classList.remove("active");
-    });
-
-    searchOverlay.addEventListener("click", function () {
-      searchPopup.classList.remove("active");
-    });
-  };
-
   render() {
     return (
       <header className="site-header site-header__header-one ">
@@ -82,20 +63,7 @@ class NavOne extends Component {
                   alt="Awesome alter text"
                 />
               </Link>
-              <div className="header__social">
-                <a href="#none">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#none">
-                  <i className="fab fa-facebook-square"></i>
-                </a>
-                <a href="#none">
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#none">
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </div>
+
               <button className="menu-toggler">
                 <span className="kipso-icon-menu"></span>
               </button>
@@ -152,14 +120,6 @@ class NavOne extends Component {
                   <Link to="/contact">Contact</Link>
                 </li>
               </ul>
-            </div>
-            <div className="right-side-box">
-              <a
-                className="header__search-btn search-popup__toggler search-toggle"
-                href="#none"
-              >
-                <i className="kipso-icon-magnifying-glass"></i>
-              </a>
             </div>
           </div>
         </nav>
