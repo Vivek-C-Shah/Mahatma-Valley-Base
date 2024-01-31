@@ -22,42 +22,21 @@ const Courses = () => {
             <div className="course-one__single">
               <div className="course-one__image">
                 <img src={course1} alt="" />
-                <i className="far fa-heart"></i>
               </div>
               <div className="course-one__content">
                 <a href="#none" className="course-one__category">
-                  development
+                  Foundation{" "}
                 </a>
                 <div className="course-one__admin">
                   <img src={team1} alt="" />
-                  by <Link to="/teacher-details">Lou Guerrero</Link>
+                  by <Link to="/teacher-details">Mahatma Valley</Link>
                 </div>
                 <h2 className="course-one__title">
-                  <Link to="/course-details">New react bootcamp</Link>
+                  <Link to="/course-details">Primary Year Program</Link>
                 </h2>
-                <div className="course-one__stars">
-                  <span className="course-one__stars-wrap">
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span className="course-one__count">4.8</span>
-                  <span className="course-one__stars-count">250</span>
-                </div>
-                <div className="course-one__meta">
-                  <a href="/course-details">
-                    <i className="far fa-clock"></i> 10 Hours
-                  </a>
-                  <a href="/course-details">
-                    <i className="far fa-folder-open"></i> 6 Lectures
-                  </a>
-                  <a href="/course-details">$18</a>
-                </div>
-                <a href="#none" className="course-one__link">
+                <Link to="/course-details" className="course-one__link">
                   See Preview
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -65,42 +44,21 @@ const Courses = () => {
             <div className="course-one__single">
               <div className="course-one__image">
                 <img src={course2} alt="" />
-                <i className="far fa-heart"></i>
               </div>
               <div className="course-one__content">
                 <a href="#none" className="course-one__category">
-                  It &amp; Software
+                  Early Learning
                 </a>
                 <div className="course-one__admin">
                   <img src={team2} alt="" />
-                  by <Link to="/teacher-details">Cora Diaz</Link>
+                  by <Link to="/teacher-details">Mahatma Valley</Link>
                 </div>
                 <h2 className="course-one__title">
-                  <Link to="/course-details">Improve editing sk</Link>
+                  <Link to="/course-details-two">Mom &amp; Tot Program</Link>
                 </h2>
-                <div className="course-one__stars">
-                  <span className="course-one__stars-wrap">
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span className="course-one__count">4.8</span>
-                  <span className="course-one__stars-count">250</span>
-                </div>
-                <div className="course-one__meta">
-                  <a href="/course-details">
-                    <i className="far fa-clock"></i> 10 Hours
-                  </a>
-                  <a href="/course-details">
-                    <i className="far fa-folder-open"></i> 6 Lectures
-                  </a>
-                  <a href="/course-details">$18</a>
-                </div>
-                <a href="#none" className="course-one__link">
+                <Link to="/course-details-two" className="course-one__link">
                   See Preview
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -112,184 +70,21 @@ const Courses = () => {
               </div>
               <div className="course-one__content">
                 <a href="#none" className="course-one__category">
-                  marketing
+                  Growth &amp; Joy
                 </a>
                 <div className="course-one__admin">
                   <img src={team3} alt="" />
-                  by <Link to="/teacher-details">Ruth Becker</Link>
+                  by <Link to="/teacher-details">Mahatma Valley</Link>
                 </div>
                 <h2 className="course-one__title">
-                  <Link to="/course-details">Marketing strategi</Link>
+                  <Link to="/course-details-three">Day Care Program</Link>
                 </h2>
-                <div className="course-one__stars">
-                  <span className="course-one__stars-wrap">
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span className="course-one__count">4.8</span>
-                  <span className="course-one__stars-count">250</span>
-                </div>
-                <div className="course-one__meta">
-                  <a href="/course-details">
-                    <i className="far fa-clock"></i> 10 Hours
-                  </a>
-                  <a href="/course-details">
-                    <i className="far fa-folder-open"></i> 6 Lectures
-                  </a>
-                  <a href="/course-details">$18</a>
-                </div>
-                <a href="#none" className="course-one__link">
+                <Link to="/course-details-three" className="course-one__link">
                   See Preview
-                </a>
+                </Link>
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
-            <div className="course-one__single">
-              <div className="course-one__image">
-                <img src={course4} alt="" />
-                <i className="far fa-heart"></i>
-              </div>
-              <div className="course-one__content">
-                <a href="#none" className="course-one__category">
-                  Photography
-                </a>
-                <div className="course-one__admin">
-                  <img src={team4} alt="" />
-                  by <Link to="/teacher-details">Ernest Rodriquez</Link>
-                </div>
-                <h2 className="course-one__title">
-                  <Link to="/course-details">Basics of photogra</Link>
-                </h2>
-                <div className="course-one__stars">
-                  <span className="course-one__stars-wrap">
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span className="course-one__count">4.8</span>
-                  <span className="course-one__stars-count">250</span>
-                </div>
-                <div className="course-one__meta">
-                  <a href="/course-details">
-                    <i className="far fa-clock"></i> 10 Hours
-                  </a>
-                  <a href="/course-details">
-                    <i className="far fa-folder-open"></i> 6 Lectures
-                  </a>
-                  <a href="/course-details">$18</a>
-                </div>
-                <a href="#none" className="course-one__link">
-                  See Preview
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="course-one__single">
-              <div className="course-one__image">
-                <img src={course5} alt="" />
-                <i className="far fa-heart"></i>
-              </div>
-              <div className="course-one__content">
-                <a href="#none" className="course-one__category">
-                  marketing
-                </a>
-                <div className="course-one__admin">
-                  <img src={team5} alt="" />
-                  by <Link to="/teacher-details">Isabella Stanley</Link>
-                </div>
-                <h2 className="course-one__title">
-                  <Link to="/course-details">Affiliate bootcamp</Link>
-                </h2>
-                <div className="course-one__stars">
-                  <span className="course-one__stars-wrap">
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span className="course-one__count">4.8</span>
-                  <span className="course-one__stars-count">250</span>
-                </div>
-                <div className="course-one__meta">
-                  <a href="/course-details">
-                    <i className="far fa-clock"></i> 10 Hours
-                  </a>
-                  <a href="/course-details">
-                    <i className="far fa-folder-open"></i> 6 Lectures
-                  </a>
-                  <a href="/course-details">$18</a>
-                </div>
-                <a href="#none" className="course-one__link">
-                  See Preview
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="course-one__single">
-              <div className="course-one__image">
-                <img src={course6} alt="" />
-                <i className="far fa-heart"></i>
-              </div>
-              <div className="course-one__content">
-                <a href="#none" className="course-one__category">
-                  Health &amp; Fitness
-                </a>
-                <div className="course-one__admin">
-                  <img src={team6} alt="" />
-                  by <Link to="/teacher-details">Katherine Collins</Link>
-                </div>
-                <h2 className="course-one__title">
-                  <Link to="/course-details">Healthy workout ti</Link>
-                </h2>
-                <div className="course-one__stars">
-                  <span className="course-one__stars-wrap">
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                  </span>
-                  <span className="course-one__count">4.8</span>
-                  <span className="course-one__stars-count">250</span>
-                </div>
-                <div className="course-one__meta">
-                  <a href="/course-details">
-                    <i className="far fa-clock"></i> 10 Hours
-                  </a>
-                  <a href="/course-details">
-                    <i className="far fa-folder-open"></i> 6 Lectures
-                  </a>
-                  <a href="/course-details">$18</a>
-                </div>
-                <a href="#none" className="course-one__link">
-                  See Preview
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="post-pagination">
-          <a href="#none">
-            <i className="fa fa-angle-double-left"></i>
-          </a>
-          <a className="active" href="#none">
-            1
-          </a>
-          <a href="#none">2</a>
-          <a href="#none">3</a>
-          <a href="#none">4</a>
-          <a href="#none">
-            <i className="fa fa-angle-double-right"></i>
-          </a>
         </div>
       </div>
     </section>
