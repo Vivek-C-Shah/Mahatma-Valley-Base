@@ -1,18 +1,19 @@
 @font-face {
-  font-family: 'kipso-icon';
-  src:  url('fonts/kipso-icon.eot?6gpu4f');
-  src:  url('fonts/kipso-icon.eot?6gpu4f#iefix') format('embedded-opentype'),
-    url('fonts/kipso-icon.ttf?6gpu4f') format('truetype'),
-    url('fonts/kipso-icon.woff?6gpu4f') format('woff'),
-    url('fonts/kipso-icon.svg?6gpu4f#kipso-icon') format('svg');
+  font-family: "kipso-icon";
+  src: url("fonts/kipso-icon.eot?6gpu4f");
+  src: url("fonts/kipso-icon.eot?6gpu4f#iefix") format("embedded-opentype"),
+    url("fonts/kipso-icon.ttf?6gpu4f") format("truetype"),
+    url("fonts/kipso-icon.woff?6gpu4f") format("woff"),
+    url("fonts/kipso-icon.svg?6gpu4f#kipso-icon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="kipso-icon-"], [class*=" kipso-icon-"] {
+[class^="kipso-icon-"],
+[class*=" kipso-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'kipso-icon' !important;
+  font-family: "kipso-icon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
