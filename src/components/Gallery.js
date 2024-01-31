@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import axios, { all } from 'axios';
+import axios from 'axios';
 
 const Gallery = () => {
   const [images, setImages] = useState([]);
@@ -8,7 +8,7 @@ const Gallery = () => {
 
   useEffect(() => {
     const fetchCategories = async () => {
-      const categoriesRes = await axios.get('http://localhost:8000/api/v1/get/categories');
+      const categoriesRes = await axios.get('https://mern-gallery-backend.vercel.app/api/v1/get/categories');
       setCategories(categoriesRes.data);
     };
 
@@ -17,9 +17,9 @@ const Gallery = () => {
 
   useEffect(() => {
     const fetchImages = async () => {
-      let url = 'http://localhost:8000/api/v1/get/images';
+      let url = 'https://mern-gallery-backend.vercel.app/api/v1/get/images';
       if (selectedCategory) {
-        url = `http://localhost:8000/api/v1/get/singleimage?category=${selectedCategory}`;
+        url = `https://mern-gallery-backend.vercel.app/api/v1/get/singleimage?category=${selectedCategory}`;
       }
       const imagesRes = await axios.get(url);
       setImages(imagesRes.data);
@@ -63,7 +63,7 @@ const Gallery = () => {
           return (
             <div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe my-4">
               <img
-                src={`http://localhost:8000/${item.name}`}
+                src={item.url} // Changed this line
                 className="img img-responsive"
                 height="300px"
                 width="300px"
