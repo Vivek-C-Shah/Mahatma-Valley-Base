@@ -5,6 +5,7 @@ import courseD1 from "../assets/images/course-d-1.jpg";
 import lcImage1 from "../assets/images/lc-1-1.jpg";
 import lcImage2 from "../assets/images/lc-1-2.jpg";
 import lcImage3 from "../assets/images/lc-1-3.jpg";
+import { Link } from "gatsby";
 
 const CourseDetails = () => {
   return (
@@ -15,35 +16,23 @@ const CourseDetails = () => {
             <div className="course-details__content">
               <p className="course-details__author">
                 <img src={team1} alt="" />
-                by <a href="#none">Addie Walters</a>
+                by <a href="#none">Mahatma Valley</a>
               </p>
 
               <div className="course-details__top">
                 <div className="course-details__top-left">
                   <h2 className="course-details__title">
-                    Improve editing skills
+                    Mom &amp; Tot Program
                   </h2>
-                  <div className="course-one__stars">
-                    <span className="course-one__stars-wrap">
-                      <i className="fa fa-star"></i>
-                      <i className="fa fa-star"></i>
-                      <i className="fa fa-star"></i>
-                      <i className="fa fa-star"></i>
-                      <i className="fa fa-star"></i>
-                    </span>
-                    <span className="course-one__count">4.8</span>
-                    <span className="course-one__stars-count">250</span>
-                  </div>
                 </div>
                 <div className="course-details__top-right">
                   <a href="#none" className="course-one__category">
-                    marketing
+                    Early Learing{" "}
                   </a>
                 </div>
               </div>
               <div className="course-one__image">
                 <img src={courseD1} alt="" />
-                <i className="far fa-heart"></i>
               </div>
 
               <ul className="course-details__tab-navs list-unstyled nav nav-tabs">
@@ -68,8 +57,8 @@ const CourseDetails = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="" role="tab" data-toggle="tab" href="#review">
-                    Reviews
+                  <a className="" role="tab" data-toggle="tab" href="#outcomes">
+                    Outcomes
                   </a>
                 </li>
               </ul>
@@ -79,104 +68,82 @@ const CourseDetails = () => {
                   role="tabpanel"
                   id="overview"
                 >
-                  <p className="course-details__tab-text">
-                    Aelltes port lacus quis enim var sed efficitur turpis gilla
-                    sed sit Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry’s
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                  </p>
+                  <section className="course-details__tab-text" id="overview">
+                    <h4>Nurturing Bonds and Early Learning:</h4>
+                    <p>
+                      Our Mother Toddler Program offers a unique opportunity for
+                      parents and their little ones to bond while engaging in
+                      fun, educational activities. This program promotes healthy
+                      attachment, and socialization to lays the groundwork for
+                      future academic success.
+                    </p>
+                    <p>
+                      Bonding and Connection: Strengthen the unbreakable bond
+                      between mother and toddler through shared experiences and
+                      playful interactions.
+                    </p>
+                    <p>
+                      Early Learning Adventures: Discover the joy of learning
+                      through hands-on activities that stimulate curiosity,
+                      creativity, and problem-solving skills.
+                    </p>
+                    <p>
+                      Social and Emotional Development: Foster social-emotional
+                      growth by providing opportunities for interaction with
+                      peers, nurturing self-confidence, and empathy.
+                    </p>
+                    <p>
+                      Support and Guidance: Receive valuable support and
+                      guidance from experienced educators who understand the
+                      unique needs of mothers and toddlers.
+                    </p>
+                  </section>
                   <br />
-                  <p className="course-details__tab-text">
-                    It was popularised in the 1960s with the release of Letraset
-                    sheets containing Lorem Ipsum passages, and more recently
-                    with desktop publishing software like Aldus PageMaker
-                    including versions of lorem ipsum amet finibus eros. Lorem
-                    Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry’s standard dummy
-                    text ever since the 1500s, when an unknown printer took a
-                    galley of type and scrambled it to make a type specimen
-                    book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting.
-                  </p>
+                  <section className="course-details__tab-text" id="curriculum">
+                    <h4>Our Program Includes:</h4>
+                    <ul>
+                      <li>
+                        Age-appropriate activities: Engage in a variety of
+                        activities tailored to the developmental stage of your
+                        toddler.
+                      </li>
+                      <li>
+                        Safe and stimulating environment: Experience a nurturing
+                        setting that encourages exploration and discovery.
+                      </li>
+                      <li>
+                        Experienced and qualified educators: Benefit from the
+                        expertise of dedicated educators who are passionate
+                        about early childhood development.
+                      </li>
+                      <li>
+                        Parent involvement and support: Foster a strong
+                        partnership between parents and educators, ensuring a
+                        consistent and supportive learning environment for your
+                        child.
+                      </li>
+                    </ul>
+                  </section>
                   <br />
-                  <ul className="list-unstyled course-details__overview-list">
-                    <li>It has survived not only five centuries</li>
-                    <li>Lorem Ipsum is simply dummy text of the new design</li>
-                    <li>Printng and type setting ipsum</li>
-                    <li>Take a look at our round up of the best shows</li>
-                  </ul>
+                  <section
+                    className="list-unstyled course-details__overview-list"
+                    id="outcomes"
+                  >
+                    <h4>Embrace the Joy of Shared Learning:</h4>
+                    <p>
+                      Our mother-toddler program is a place where mothers and
+                      toddlers can embark on a journey of learning, growth, and
+                      connection. Together, you'll create memories that will
+                      last a lifetime, while laying the foundation for your
+                      child's future success.
+                    </p>
+                  </section>
                 </div>
                 <div
                   className="tab-pane  animated fadeInUp"
                   role="tabpanel"
-                  id="curriculum"
+                  // id="curriculum"
                 >
-                  <h3 className="course-details__tab-title">
-                    Starting beginners level course
-                  </h3>
-                  <br />
-                  <p className="course-details__tab-text">
-                    Aelltes port lacus quis enim var sed efficitur turpis gilla
-                    sed sit Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry’s
-                    standard dummy text ever since.
-                  </p>
-                  <br />
-                  <ul className="course-details__curriculum-list list-unstyled">
-                    <li>
-                      <div className="course-details__curriculum-list-left">
-                        <div className="course-details__meta-icon video-icon">
-                          <i className="fas fa-play"></i>
-                        </div>
-                        <a href="#none">Introduction to Editing</a>{" "}
-                        <span>Preview</span>
-                      </div>
-                      <div className="course-details__curriculum-list-right">
-                        16 minutes
-                      </div>
-                    </li>
-                    <li>
-                      <div className="course-details__curriculum-list-left">
-                        <div className="course-details__meta-icon video-icon">
-                          <i className="fas fa-play"></i>
-                        </div>
-                        <a href="#none">Overview of Editing</a>{" "}
-                        <span>Preview</span>
-                      </div>
-                      <div className="course-details__curriculum-list-right">
-                        10 minutes
-                      </div>
-                    </li>
-                    <li>
-                      <div className="course-details__curriculum-list-left">
-                        <div className="course-details__meta-icon file-icon">
-                          <i className="fas fa-folder"></i>
-                        </div>
-                        <a href="#none">Basic Editing Technology</a>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="course-details__curriculum-list-left">
-                        <div className="course-details__meta-icon quiz-icon">
-                          <i className="fas fa-comment"></i>
-                        </div>
-                        <a href="#none">Quiz</a>
-                      </div>
-                      <div className="course-details__curriculum-list-right">
-                        6 questions
-                      </div>
-                    </li>
-                  </ul>
-                  <br />
-                  <br />
-                  <h3 className="course-details__tab-title">
-                    Intermediate Level
-                  </h3>
-                  <br />
                   <p className="course-details__tab-text">
                     Aelltes port lacus quis enim var sed efficitur turpis gilla
                     sed sit Lorem Ipsum is simply dummy text of the printing and
@@ -397,11 +364,8 @@ const CourseDetails = () => {
           </div>
           <div className="col-lg-4">
             <div className="course-details__price">
-              <p className="course-details__price-text">Course price </p>
+              <p className="course-details__price-text">Program price </p>
               <p className="course-details__price-amount">$18.00</p>
-              <a href="#none" className="thm-btn course-details__price-btn">
-                Buy This Course
-              </a>
             </div>
 
             <div className="course-details__meta">
@@ -443,26 +407,19 @@ const CourseDetails = () => {
               </a>
             </div>
             <div className="course-details__list">
-              <h2 className="course-details__list-title">New Courses</h2>
+              <h2 className="course-details__list-title">Other Programs</h2>
               <div className="course-details__list-item">
                 <div className="course-details__list-img">
                   <img src={lcImage1} alt="" />
                 </div>
                 <div className="course-details__list-content">
                   <a className="course-details__list-author" href="#none">
-                    by <span>Lydia Byrd</span>
+                    by <span>Mahatma Valley</span>
                   </a>
                   <h3>
-                    <a href="#none">Marketing strategies</a>
+                    {" "}
+                    <Link to="/course-details">Primary Year Program</Link>
                   </h3>
-                  <div className="course-details__list-stars">
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <span>4.8</span>
-                  </div>
                 </div>
               </div>
               <div className="course-details__list-item">
@@ -471,40 +428,12 @@ const CourseDetails = () => {
                 </div>
                 <div className="course-details__list-content">
                   <a className="course-details__list-author" href="#none">
-                    by <span>Lydia Byrd</span>
+                    by <span>Mahatma Valley</span>
                   </a>
                   <h3>
-                    <a href="#none">Marketing strategies</a>
+                    {" "}
+                    <Link to="/course-details-three">Day Care Program</Link>
                   </h3>
-                  <div className="course-details__list-stars">
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <span>4.8</span>
-                  </div>
-                </div>
-              </div>
-              <div className="course-details__list-item">
-                <div className="course-details__list-img">
-                  <img src={lcImage3} alt="" />
-                </div>
-                <div className="course-details__list-content">
-                  <a className="course-details__list-author" href="#none">
-                    by <span>Lydia Byrd</span>
-                  </a>
-                  <h3>
-                    <a href="#none">Marketing strategies</a>
-                  </h3>
-                  <div className="course-details__list-stars">
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <i className="fas fa-star"></i>
-                    <span>4.8</span>
-                  </div>
                 </div>
               </div>
             </div>
