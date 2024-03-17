@@ -37,6 +37,28 @@ const Contact = () => {
     <div>
       <section className="contact-one">
         <div className="container">
+          <p>
+            Ready to embark on a journey of discovery, laughter, and learning at
+            Mahatma Valley Innovative Preschool? Contact us today to schedule a
+            tour and experience the vibrant life of our preschool community
+            firsthand.
+          </p>
+          <section
+            className="list-unstyled course-details__overview-list pt-2"
+            id="Student Life"
+          >
+            <h4 className="pb-3 pt-4">
+              <b>
+                <u>Contact Us</u>
+              </b>
+            </h4>
+            <p>
+              <b>Email : mahatmavalley@gmail.com</b>
+              <br></br>
+              <b>Phone no : +91 9099921467</b>
+            </p>
+          </section>
+
           <h2 className="contact-one__title text-center">Enquiry Form</h2>
           <div>
             <form

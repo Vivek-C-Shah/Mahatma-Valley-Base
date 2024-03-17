@@ -4,7 +4,7 @@ import VisibilitySensor from "react-visibility-sensor";
 import ClientStripe from "../assets/images/circle-stripe.png";
 import aboutImage1 from "../assets/images/about-2-1.jpg";
 import aboutImage2 from "../assets/images/about-2-2.jpg";
-
+import { Link } from "gatsby";
 class AboutOne extends Component {
   constructor() {
     super();
@@ -68,11 +68,18 @@ class AboutOne extends Component {
                   <div className="contact-info-one__icon">
                     <i className="kipso-icon-black-graduation-cap-tool-of-university-student-for-head"></i>
                   </div>
-                  <h2 className="contact-info-one__title">About Us</h2>
-                  <p className="contact-info-one__text">
-                    Mahatma Valley is a pre-school that believes in the holistic
-                    development of children. We believe in the importance of
-                    education and its impact on the future of our children.
+                  <h2 className="contact-info-one__title">
+                    <Link to="/about" style={{ color: "black" }}>
+                      About Page
+                    </Link>{" "}
+                  </h2>
+                  <p
+                    className="contact-info-one__text p-2"
+                    style={{ textAlign: "justify" }}
+                  >
+                    Mahatma Valley is a pre-school focused on the holistic
+                    development of children, emphasizing the importance of
+                    education for their future.
                   </p>
                 </div>
               </div>
@@ -81,8 +88,15 @@ class AboutOne extends Component {
                   <div className="contact-info-one__icon">
                     <i className="kipso-icon-knowledge"></i>
                   </div>
-                  <h2 className="contact-info-one__title">Our Vission </h2>
-                  <p className="contact-info-one__text">
+                  <h2 className="contact-info-one__title">
+                    <Link to="/about" style={{ color: "black" }}>
+                      Our Vision
+                    </Link>
+                  </h2>
+                  <p
+                    className="contact-info-one__text p-2"
+                    style={{ textAlign: "justify" }}
+                  >
                     Fostering compassionate leaders at <br /> Mahatma Valley, we
                     cultivate Indian values <br /> in a global context,
                     preparing for diverse challenges and opportunities.
@@ -94,11 +108,18 @@ class AboutOne extends Component {
                   <div className="contact-info-one__icon">
                     <i className="kipso-icon-targeting"></i>
                   </div>
-                  <h2 className="contact-info-one__title">Our Mission</h2>
-                  <p className="contact-info-one__text">
-                    Empowering students through tailored education, fostering
-                    talent, cultural appreciation, and global awareness for a
-                    positive impact on the world.
+                  <h2 className="contact-info-one__title">
+                    <Link to="/about" style={{ color: "black" }}>
+                      Life at Mahatma Valley
+                    </Link>
+                  </h2>
+                  <p
+                    className="contact-info-one__text p-2"
+                    style={{ textAlign: "justify" }}
+                  >
+                    At Mahatma Valley, each day is an adventure of laughter,
+                    learning, and discoveries in a warm, inclusive environment
+                    that empowers children's exploration.
                   </p>
                 </div>
               </div>
