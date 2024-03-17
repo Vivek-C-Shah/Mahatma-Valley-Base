@@ -21,13 +21,11 @@ const CourseDetails = () => {
 
               <div className="course-details__top">
                 <div className="course-details__top-left">
-                  <h2 className="course-details__title">
-                    Day Care for Students
-                  </h2>
+                  <h2 className="course-details__title">Nursery</h2>
                 </div>
                 <div className="course-details__top-right">
                   <a href="#none" className="course-one__category">
-                    Growth &amp; Joy{" "}
+                    Foundation{" "}
                   </a>
                 </div>
               </div>
@@ -69,41 +67,25 @@ const CourseDetails = () => {
                   id="overview"
                 >
                   <section className="course-details__tab-text" id="overview">
-                    <h4>Supporting Learning Beyond the Classroom:</h4>
-                    <p>
-                      Our Day Care services offer students a safe and nurturing
-                      environment to continue their educational journey. Under
-                      the guidance of our experienced and caring staff, children
-                      engage in a variety of stimulating activities designed to
-                      foster growth, curiosity, and independence.
-                    </p>
+                    <h4>Building a Strong Foundation:</h4>
+                    Our Primary Year Program is designed to foster the
+                    intellectual, social, and emotional growth of children aged
+                    2.5 to 5 years. With a balanced blend of academic and
+                    practical learning experiences, students develop essential
+                    skills and a love for learning that lasts a lifetime.
                   </section>
                   <br />
                   <section className="course-details__tab-text" id="curriculum">
                     <h4>Our Program Includes:</h4>
                     <ul>
+                      <li>A safe and loving environment.</li>
                       <li>
-                        Social and Emotional Development: Cultivate
-                        self-confidence, empathy, and social skills through
-                        interactive play, group activities, and positive
-                        reinforcement.
+                        Small class sizes A variety of age-appropriate
+                        activities.
                       </li>
                       <li>
-                        Cognitive Growth and Learning: Spark curiosity and
-                        stimulate learning through hands-on activities,
-                        age-appropriate educational games, and storytelling
-                        sessions.
-                      </li>
-                      <li>
-                        Physical Development and Play: Encourage physical
-                        activity, coordination, and gross motor skills through
-                        fun-filled outdoor play and indoor exercise routines.{" "}
-                      </li>
-                      <li>
-                        Nutritious Meals and Healthy Habits: Provide nutritious
-                        meals and snacks to support their growing bodies, while
-                        instilling healthy eating habits and promoting overall
-                        well-being.{" "}
+                        Experienced and qualified educators A focus on the whole
+                        child
                       </li>
                     </ul>
                   </section>
@@ -112,13 +94,15 @@ const CourseDetails = () => {
                     className="list-unstyled course-details__overview-list"
                     id="outcomes"
                   >
-                    <h4>Peace of Mind for Parents:</h4>
+                    <h4>Nurturing Your Child's Potential:</h4>
                     <p>
-                      We understand that leaving your child in someone else's
-                      care can be difficult. We strive to create a space where
-                      parents feel confident their children are safe, happy, and
-                      thriving. We welcome parent involvement and offer regular
-                      communication on your child's day-to-day progress.
+                      The early years of a child's life are a time of tremendous
+                      growth and development. Our early years program provides a
+                      nurturing and stimulating environment where children can
+                      learn and explore at their own pace. Our experienced
+                      educators will guide your child through a variety of
+                      activities that promote social, emotional, cognitive, and
+                      physical development.
                     </p>
                   </section>
                 </div>
@@ -168,183 +152,10 @@ const CourseDetails = () => {
                     </li>
                   </ul>
                 </div>
-                <div
-                  className="tab-pane  animated fadeInUp"
-                  role="tabpanel"
-                  id="review"
-                >
-                  <div className="row">
-                    <div className="col-xl-7 d-flex">
-                      <div className="course-details__progress my-auto">
-                        <div className="course-details__progress-item">
-                          <p className="course-details__progress-text">
-                            Excellent
-                          </p>
-                          <div className="course-details__progress-bar">
-                            <span style={{ width: `95%` }}></span>
-                          </div>
-                          <p className="course-details__progress-count">5</p>
-                        </div>
-                        <div className="course-details__progress-item">
-                          <p className="course-details__progress-text">
-                            Very Good
-                          </p>
-                          <div className="course-details__progress-bar">
-                            <span style={{ width: `65%` }}></span>
-                          </div>
-                          <p className="course-details__progress-count">2</p>
-                        </div>
-                        <div className="course-details__progress-item">
-                          <p className="course-details__progress-text">
-                            Average
-                          </p>
-                          <div className="course-details__progress-bar">
-                            <span style={{ width: `33%` }}></span>
-                          </div>
-                          <p className="course-details__progress-count">1</p>
-                        </div>
-                        <div className="course-details__progress-item">
-                          <p className="course-details__progress-text">Poor</p>
-                          <div className="course-details__progress-bar">
-                            <span
-                              style={{ width: `0%` }}
-                              className="no-bubble"
-                            ></span>
-                          </div>
-                          <p className="course-details__progress-count">0</p>
-                        </div>
-                        <div className="course-details__progress-item">
-                          <p className="course-details__progress-text">
-                            Terrible
-                          </p>
-                          <div className="course-details__progress-bar">
-                            <span
-                              style={{ width: `0%` }}
-                              className="no-bubble"
-                            ></span>
-                          </div>
-                          <p className="course-details__progress-count">0</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-xl-5 justify-content-xl-end justify-content-sm-center d-flex">
-                      <div className="course-details__review-box">
-                        <p className="course-details__review-count">4.6</p>
-                        <div className="course-details__review-stars">
-                          <i className="fas fa-star"></i>
-                          <i className="fas fa-star"></i>
-                          <i className="fas fa-star"></i>
-                          <i className="fas fa-star"></i>
-                          <i className="fas fa-star-half"></i>
-                        </div>
-                        <p className="course-details__review-text">
-                          30 reviews
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="course-details__comment">
-                    <div className="course-details__comment-single">
-                      <div className="course-details__comment-top">
-                        <div className="course-details__comment-img">
-                          <img src={team1} alt="" />
-                        </div>
-                        <div className="course-details__comment-right">
-                          <h2 className="course-details__comment-name">
-                            Steven Meyer
-                          </h2>
-                          <div className="course-details__comment-meta">
-                            <p className="course-details__comment-date">
-                              26 July, 2019
-                            </p>
-                            <div className="course-details__comment-stars">
-                              <i className="fa fa-star"></i>
-                              <i className="fa fa-star"></i>
-                              <i className="fa fa-star"></i>
-                              <i className="fa fa-star"></i>
-                              <i className="fa fa-star star-disabled"></i>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <p className="course-details__comment-text">
-                        Lorem ipsum is simply free text used by copytyping
-                        refreshing. Neque porro est qui dolorem ipsum quia quaed
-                        inventore veritatis et quasi architecto beatae vitae
-                        dicta sunt explicabo.
-                      </p>
-                    </div>
-                    <div className="course-details__comment-single">
-                      <div className="course-details__comment-top">
-                        <div className="course-details__comment-img">
-                          <img src={team2} alt="" />
-                        </div>
-                        <div className="course-details__comment-right">
-                          <h2 className="course-details__comment-name">
-                            Lina Kelley
-                          </h2>
-                          <div className="course-details__comment-meta">
-                            <p className="course-details__comment-date">
-                              26 July, 2019
-                            </p>
-                            <div className="course-details__comment-stars">
-                              <i className="fa fa-star"></i>
-                              <i className="fa fa-star"></i>
-                              <i className="fa fa-star"></i>
-                              <i className="fa fa-star star-disabled"></i>
-                              <i className="fa fa-star star-disabled"></i>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <p className="course-details__comment-text">
-                        Lorem ipsum is simply free text used by copytyping
-                        refreshing. Neque porro est qui dolorem ipsum quia quaed
-                        inventore veritatis et quasi architecto beatae vitae
-                        dicta sunt explicabo.
-                      </p>
-                    </div>
-                  </div>
-                  <form action="#" className="course-details__comment-form">
-                    <h2 className="course-details__title">Add a review</h2>
-                    <p className="course-details__comment-form-text">
-                      Rate this Course?{" "}
-                      <a href="#give-star" aria-label="review stars">
-                        <i className="fas fa-star"></i>
-                      </a>
-                      <a href="#give-star" aria-label="review stars">
-                        <i className="fas fa-star"></i>
-                      </a>
-                      <a href="#give-star" aria-label="review stars">
-                        <i className="fas fa-star"></i>
-                      </a>
-                      <a href="#give-star" aria-label="review stars">
-                        <i className="fas fa-star"></i>
-                      </a>
-                      <a href="#give-star" aria-label="review stars">
-                        <i className="fas fa-star"></i>
-                      </a>
-                    </p>
-                    <div className="row">
-                      <div className="col-lg-6">
-                        <input type="text" placeholder="Your Name" />
-                        <input type="text" placeholder="Email Address" />
-                      </div>
-                      <div className="col-lg-12">
-                        <textarea placeholder="Write Message"></textarea>
-                        <button
-                          type="submit"
-                          className="thm-btn course-details__comment-form-btn"
-                        >
-                          Leave a Review
-                        </button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
               </div>
             </div>
           </div>
+
           <div className="col-lg-4">
             <div className="course-details__price">
               <p className="course-details__price-text">Program price </p>
@@ -391,6 +202,7 @@ const CourseDetails = () => {
             </div>
             <div className="course-details__list">
               <h2 className="course-details__list-title">Other Programs</h2>
+
               <div className="course-details__list-item">
                 <div className="course-details__list-img">
                   <img src={lcImage1} alt="" />
@@ -401,10 +213,26 @@ const CourseDetails = () => {
                   </a>
                   <h3>
                     {" "}
-                    <Link to="/course-details">Primary Year Program</Link>
+                    <Link to="/course-details">Toddler Program</Link>
                   </h3>
                 </div>
               </div>
+
+              <div className="course-details__list-item">
+                <div className="course-details__list-img">
+                  <img src={lcImage1} alt="" />
+                </div>
+                <div className="course-details__list-content">
+                  <a className="course-details__list-author" href="#none">
+                    by <span>Mahatma Valley</span>
+                  </a>
+                  <h3>
+                    {" "}
+                    <Link to="/course-details-two">Playgroup</Link>
+                  </h3>
+                </div>
+              </div>
+
               <div className="course-details__list-item">
                 <div className="course-details__list-img">
                   <img src={lcImage2} alt="" />
@@ -415,7 +243,25 @@ const CourseDetails = () => {
                   </a>
                   <h3>
                     {" "}
-                    <Link to="/course-details-two">Mom &amp; Tot Program</Link>
+                    <Link to="/course-details-four">
+                      Junior Kindergarten(Jr.KG)
+                    </Link>
+                  </h3>
+                </div>
+              </div>
+              <div className="course-details__list-item">
+                <div className="course-details__list-img">
+                  <img src={lcImage1} alt="" />
+                </div>
+                <div className="course-details__list-content">
+                  <a className="course-details__list-author" href="#none">
+                    by <span>Mahatma Valley</span>
+                  </a>
+                  <h3>
+                    {" "}
+                    <Link to="/course-details-five">
+                      Senior Kindergarten (Sr.KG)
+                    </Link>
                   </h3>
                 </div>
               </div>

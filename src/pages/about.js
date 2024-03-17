@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 import AboutOne from "../components/AboutOne";
+import AboutTwo from "../components/AboutTwo";
 import Footer from "../components/Footer";
 import TeamOne from "../components/TeamOne";
 import VideoOne from "../components/VideoOne";
@@ -15,7 +16,7 @@ const AboutPage = () => {
     <Layout pageTitle="Mahatma Valley | About">
       <NavOne />
       <PageHeader title="About" />
-      <AboutOne />
+      <AboutTwo />
       <TeamOne />
       <VideoOne />
       {/* <BrandsTwo /> */}

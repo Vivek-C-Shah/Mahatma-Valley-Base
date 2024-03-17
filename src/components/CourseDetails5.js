@@ -21,7 +21,9 @@ const CourseDetails = () => {
 
               <div className="course-details__top">
                 <div className="course-details__top-left">
-                  <h2 className="course-details__title">Toddler Program</h2>
+                  <h2 className="course-details__title">
+                    Senior Kindergarten (Sr.KG)
+                  </h2>
                 </div>
                 <div className="course-details__top-right">
                   <a href="#none" className="course-one__category">
@@ -213,7 +215,7 @@ const CourseDetails = () => {
                   </a>
                   <h3>
                     {" "}
-                    <Link to="/course-details-two">Playgroup</Link>
+                    <Link to="/course-details">Toddler Program</Link>
                   </h3>
                 </div>
               </div>
@@ -228,7 +230,7 @@ const CourseDetails = () => {
                   </a>
                   <h3>
                     {" "}
-                    <Link to="/course-details-three">Nursery</Link>
+                    <Link to="/course-details-two">Playgroup</Link>
                   </h3>
                 </div>
               </div>
@@ -243,9 +245,7 @@ const CourseDetails = () => {
                   </a>
                   <h3>
                     {" "}
-                    <Link to="/course-details-four">
-                      Junior Kindergarten(Jr.KG)
-                    </Link>
+                    <Link to="/course-details-three">Nursery</Link>
                   </h3>
                 </div>
               </div>
@@ -259,8 +259,8 @@ const CourseDetails = () => {
                   </a>
                   <h3>
                     {" "}
-                    <Link to="/course-details-five">
-                      Senior Kindergarten (Sr.KG)
+                    <Link to="/course-details-four">
+                      Junior Kindergarten (Jr.KG)
                     </Link>
                   </h3>
                 </div>
