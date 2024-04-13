@@ -79,12 +79,7 @@ class NavOne extends Component {
                     <li>
                       <Link to="/about">About Page</Link>
                     </li>
-                    <li>
-                      <Link to="/gallery">Gallery</Link>
-                    </li>
-                    <li>
-                      <Link to="/admissions">Admissions</Link>
-                    </li>
+
                     <li>
                       <Link to="/faq">FAQ'S</Link>
                     </li>
@@ -102,19 +97,10 @@ class NavOne extends Component {
                   </ul>
                 </li>
                 <li>
-                  <Link to="/teachers">Teachers</Link>
+                  <Link to="/admissions">Admissions</Link>
                 </li>
                 <li>
-                  <Link to="/news">News</Link>
-
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/news">News Page</Link>
-                    </li>
-                    <li>
-                      <Link to="/news-details">News Details</Link>
-                    </li>
-                  </ul>
+                  <Link to="/gallery">Gallery</Link>
                 </li>
                 <li>
                   <Link to="/contact">Contact</Link>

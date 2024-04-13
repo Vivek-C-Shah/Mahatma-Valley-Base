@@ -108,7 +108,7 @@ const Courses = () => {
           <div className="col-lg-4">
             <div className="course-one__single">
               <div className="course-one__image">
-                <img src={course3} alt="" />
+                <img src={course4} alt="" />
                 <i className="far fa-heart"></i>
               </div>
               <div className="course-one__content">
@@ -134,7 +134,7 @@ const Courses = () => {
           <div className="col-lg-4">
             <div className="course-one__single">
               <div className="course-one__image">
-                <img src={course3} alt="" />
+                <img src={course5} alt="" />
                 <i className="far fa-heart"></i>
               </div>
               <div className="course-one__content">

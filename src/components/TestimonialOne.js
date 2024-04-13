@@ -60,7 +60,7 @@ const TestimonialOne = () => {
                 <p className="testimonials-one__text">
                   Anaya enjoys going to school.
                 </p>
-                {/* <img src={team1} alt="" className="testimonials-one__img" /> */}
+                <img src={team1} alt="" className="testimonials-one__img" />
                 <h3 className="testimonials-one__name">Ravi</h3>
                 <p className="testimonials-one__designation">Anaya's Father</p>
               </div>
@@ -73,7 +73,7 @@ const TestimonialOne = () => {
                 <p className="testimonials-one__text">
                   Rohan loves his preschool.
                 </p>
-                {/* <img src={team2} alt="" className="testimonials-one__img" /> */}
+                <img src={team2} alt="" className="testimonials-one__img" />
                 <h3 className="testimonials-one__name">Sunita</h3>
                 <p className="testimonials-one__designation">Rohan's Mother</p>
               </div>
@@ -86,7 +86,7 @@ const TestimonialOne = () => {
                 <p className="testimonials-one__text">
                   Aarav's learning has improved.
                 </p>
-                {/* <img src={team3} alt="" className="testimonials-one__img" /> */}
+                <img src={team3} alt="" className="testimonials-one__img" />
                 <h3 className="testimonials-one__name">Priya</h3>
                 <p className="testimonials-one__designation">
                   Aarav's Elder Sister
@@ -101,7 +101,7 @@ const TestimonialOne = () => {
                 <p className="testimonials-one__text">
                   Kavya adores her teachers.
                 </p>
-                {/* <img src={team4} alt="" className="testimonials-one__img" /> */}
+                <img src={team4} alt="" className="testimonials-one__img" />
                 <h3 className="testimonials-one__name">Deepak</h3>
                 <p className="testimonials-one__designation">
                   Student's Father
@@ -114,9 +114,9 @@ const TestimonialOne = () => {
                   <img src={qoute1} alt="" />
                 </div>
                 <p className="testimonials-one__text">
-                  Ishaan is always excited for school.
+                  Ishaan is excited for school.
                 </p>
-                {/* <img src={team5} alt="" className="testimonials-one__img" /> */}
+                <img src={team5} alt="" className="testimonials-one__img" />
                 <h3 className="testimonials-one__name">Meena</h3>
                 <p className="testimonials-one__designation">
                   Student's Mother
@@ -131,7 +131,7 @@ const TestimonialOne = () => {
                 <p className="testimonials-one__text">
                   Aditi's progress is noticeable.
                 </p>
-                {/* <img src={team1} alt="" className="testimonials-one__img" /> */}
+                <img src={team1} alt="" className="testimonials-one__img" />
                 <h3 className="testimonials-one__name">Anil</h3>
                 <p className="testimonials-one__designation">
                   Student's elder brother
@@ -146,7 +146,7 @@ const TestimonialOne = () => {
                 <p className="testimonials-one__text">
                   Riya is always excited for school.
                 </p>
-                {/* <img src={team2} alt="" className="testimonials-one__img" /> */}
+                <img src={team2} alt="" className="testimonials-one__img" />
                 <h3 className="testimonials-one__name">Rajesh</h3>
                 <p className="testimonials-one__designation">
                   Student's Father
@@ -161,7 +161,7 @@ const TestimonialOne = () => {
                 <p className="testimonials-one__text">
                   Arjun has learned so much.
                 </p>
-                {/* <img src={team3} alt="" className="testimonials-one__img" /> */}
+                <img src={team3} alt="" className="testimonials-one__img" />
                 <h3 className="testimonials-one__name">Sunita</h3>
                 <p className="testimonials-one__designation">
                   Student's Mother

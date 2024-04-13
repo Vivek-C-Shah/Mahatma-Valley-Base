@@ -19,8 +19,8 @@ const HomePageTwo = () => {
       <SliderTwo />
       <CourseCatTwo />
       <AboutOne />
-      <CourseTwo />
-      <TeamOne />
+      {/* <CourseTwo /> */}
+      {/* <TeamOne /> */}
       {/* <Pricing /> */}
       {/* <MeetingOne /> */}
       {/* <CallToActionTwo /> */}

@@ -5,6 +5,7 @@ import footer3 from "../assets/images/footer-1-3.png";
 import footer4 from "../assets/images/footer-1-4.png";
 import footer5 from "../assets/images/footer-1-5.png";
 import footer6 from "../assets/images/footer-1-6.png";
+import { Link } from "gatsby";
 
 const Footer = () => {
   function scrollTop() {
@@ -22,23 +23,19 @@ const Footer = () => {
                   <div className="footer-widget__link-wrap">
                     <ul className="list-unstyled footer-widget__link-list">
                       <li>
-                        <a href="#none">About</a>
+                        <Link to="/about">About Page</Link>
                       </li>
                       <li>
-                        <a href="#none">Teachers</a>
+                        <Link to="/admissions">Admissions</Link>
                       </li>
                       <li>
-                        <a href="#none">Admissions</a>
-                      </li>
-
-                      <li>
-                        <a href="#none">Help </a>
+                        <Link to="/gallery">Gallery</Link>
                       </li>
                       <li>
-                        <a href="#none">Contact</a>
+                        <Link to="/faq">FAQ'S</Link>
                       </li>
                       <li>
-                        <a href="#none">Gallery</a>
+                        <Link to="/contact">Contact</Link>
                       </li>
                     </ul>
                   </div>
