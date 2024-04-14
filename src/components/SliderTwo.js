@@ -30,8 +30,16 @@ const SliderTwo = () => {
             <div className="container">
               <div className="row no-gutters">
                 <div className="col-xl-12">
-                  <p className="banner-two__tag-line">Pre School</p>
-                  <h3 className="banner-two__title banner-two__light-color">
+                  <p
+                    className="banner-two__tag-line"
+                    style={{ color: "#414247" }}
+                  >
+                    Pre School
+                  </p>
+                  <h3
+                    className="banner-two__title banner-two__dark-color"
+                    style={{ color: "#414247" }}
+                  >
                     Mahatma Valley <br />A Pre School
                   </h3>
                   <a href="#none" className="thm-btn banner-two__btn">
@@ -48,8 +56,16 @@ const SliderTwo = () => {
             <div className="container">
               <div className="row no-gutters">
                 <div className="col-xl-12">
-                  <p className="banner-two__tag-line">High quality courses</p>
-                  <h3 className="banner-two__title banner-two__light-color">
+                  <p
+                    className="banner-two__tag-line"
+                    style={{ color: "#414247" }}
+                  >
+                    High quality courses
+                  </p>
+                  <h3
+                    className="banner-two__title banner-two__light-color"
+                    style={{ color: "#414247" }}
+                  >
                     Read & learn <br />
                     in an easy way
                   </h3>

@@ -17,7 +17,7 @@ const AboutPage = () => {
       <NavOne />
       <PageHeader title="About" />
       <AboutTwo />
-      <TeamOne />
+      {/*<TeamOne />*/}
       <VideoOne />
       {/* <BrandsTwo /> */}
       <TestimonialOne />
