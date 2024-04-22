@@ -6,6 +6,7 @@ import footer4 from "../assets/images/footer-1-4.png";
 import footer5 from "../assets/images/footer-1-5.png";
 import footer6 from "../assets/images/footer-1-6.png";
 import { Link } from "gatsby";
+// import logo from "../assets/images/logo-light.png";
 
 const Footer = () => {
   function scrollTop() {
@@ -41,7 +42,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-6 col-sm-12">
+              {/*<div className="col-xl-3 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__gallery">
                   <h2 className="footer-widget__title">Gallery</h2>
                   <ul className="list-unstyled footer-widget__gallery-list">
@@ -77,7 +78,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
+  </div>*/}
               <div className="col-xl-6 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__about">
                   <h2 className="footer-widget__title">About</h2>

@@ -6,11 +6,11 @@ import course3 from "../assets/images/course-1-3.jpg";
 import course4 from "../assets/images/course-1-4.jpg";
 import course5 from "../assets/images/course-1-5.jpg";
 import course6 from "../assets/images/course-1-6.jpg";
-import team1 from "../assets/images/team-1-1.jpg";
-import team2 from "../assets/images/team-1-2.jpg";
-import team3 from "../assets/images/team-1-3.jpg";
-import team4 from "../assets/images/team-1-4.jpg";
-import team5 from "../assets/images/team-1-5.jpg";
+import team1 from "../assets/images/logo.png";
+import team2 from "../assets/images/logo.png";
+import team3 from "../assets/images/logo.png";
+import team4 from "../assets/images/logo.png";
+import team5 from "../assets/images/logo.png";
 import team6 from "../assets/images/team-1-6.jpg";
 
 const Courses = () => {
