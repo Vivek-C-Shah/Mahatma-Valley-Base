@@ -111,16 +111,9 @@ const Footer = () => {
               >
                 <i className="kipso-icon-top-arrow"></i>
               </div>
-
-              // <a href="#none">
-              //   <i className="fab fa-youtube"></i>
-              // </a>
               <a href="https://www.facebook.com/share/KDobqSYobYwZ2Krc/?mibextid=LQQJ4d">
                 <i className="fab fa-facebook-square"></i>
               </a>
-              // <a href="#none">
-              //   <i className="fab fa-linkedin-in"></i>
-              // </a>
               <a href="https://www.instagram.com/mahatma_valley?igsh=MWpxd2QyY2Nnb3c1Yg%3D%3D&utm_source=qr">
                 <i className="fab fa-instagram"></i>
               </a>
