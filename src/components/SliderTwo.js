@@ -3,6 +3,7 @@ import Swiper from "react-id-swiper";
 import "swiper/css/swiper.css";
 import bg1 from "../assets/images/slider-2-1.jpg";
 import bg2 from "../assets/images/slider-2-2.jpg";
+import { Link } from "gatsby";
 
 const SliderTwo = () => {
   const [swiper, setSwiper] = useState(null);
@@ -42,9 +43,9 @@ const SliderTwo = () => {
                   >
                     Mahatma Valley <br />A Pre School
                   </h3>
-                  <a href="#none" className="thm-btn banner-two__btn">
+                  <Link to="/about" className="thm-btn banner-two__btn">
                     Learn More
-                  </a>
+                  </Link>{" "}
                 </div>
               </div>
             </div>
@@ -69,9 +70,9 @@ const SliderTwo = () => {
                     Read & learn <br />
                     in an easy way
                   </h3>
-                  <a href="#none" className="thm-btn banner-two__btn">
+                  <Link to="/about" className="thm-btn banner-two__btn">
                     Learn More
-                  </a>
+                  </Link>{" "}
                 </div>
               </div>
             </div>

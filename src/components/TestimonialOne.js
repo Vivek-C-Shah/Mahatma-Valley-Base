@@ -2,10 +2,10 @@ import React from "react";
 import Swiper from "react-id-swiper";
 import "swiper/css/swiper.css";
 import qoute1 from "../assets/images/qoute-1-1.png";
-import team1 from "../assets/images/team-1-1.jpg";
-import team2 from "../assets/images/team-1-2.jpg";
-import team3 from "../assets/images/team-1-3.jpg";
-import team4 from "../assets/images/team-1-4.jpg";
+import team1 from "../assets/images/test-1.jpg";
+import team2 from "../assets/images/test-2.jpg";
+import team3 from "../assets/images/test-3.jpg";
+import team4 from "../assets/images/test-4.jpg";
 import team5 from "../assets/images/team-1-5.jpg";
 import team6 from "../assets/images/team-1-6.jpg";
 
@@ -60,7 +60,7 @@ const TestimonialOne = () => {
                 <p className="testimonials-one__text">
                   Anaya enjoys going to school.
                 </p>
-                <img src={team1} alt="" className="testimonials-one__img" />
+                <img src={team4} alt="" className="testimonials-one__img" />
                 <h3 className="testimonials-one__name">Ravi</h3>
                 <p className="testimonials-one__designation">Anaya's Father</p>
               </div>
@@ -116,7 +116,7 @@ const TestimonialOne = () => {
                 <p className="testimonials-one__text">
                   Ishaan is excited for school.
                 </p>
-                <img src={team5} alt="" className="testimonials-one__img" />
+                <img src={team2} alt="" className="testimonials-one__img" />
                 <h3 className="testimonials-one__name">Meena</h3>
                 <p className="testimonials-one__designation">
                   Student's Mother
@@ -131,7 +131,7 @@ const TestimonialOne = () => {
                 <p className="testimonials-one__text">
                   Aditi's progress is noticeable.
                 </p>
-                <img src={team1} alt="" className="testimonials-one__img" />
+                <img src={team4} alt="" className="testimonials-one__img" />
                 <h3 className="testimonials-one__name">Anil</h3>
                 <p className="testimonials-one__designation">
                   Student's elder brother
@@ -146,7 +146,7 @@ const TestimonialOne = () => {
                 <p className="testimonials-one__text">
                   Riya is always excited for school.
                 </p>
-                <img src={team2} alt="" className="testimonials-one__img" />
+                <img src={team1} alt="" className="testimonials-one__img" />
                 <h3 className="testimonials-one__name">Rajesh</h3>
                 <p className="testimonials-one__designation">
                   Student's Father

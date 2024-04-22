@@ -1,10 +1,11 @@
 import React from "react";
-import team1 from "../assets/images/team-1-1.jpg";
+import team1 from "../assets/images/logo.png";
 import team2 from "../assets/images/team-1-1.jpg";
-import courseD1 from "../assets/images/course-d-1.jpg";
-import lcImage1 from "../assets/images/lc-1-1.jpg";
-import lcImage2 from "../assets/images/lc-1-2.jpg";
-import lcImage3 from "../assets/images/lc-1-3.jpg";
+import courseD1 from "../assets/images/course-1-1 (Custom).jpg";
+import lcImage2 from "../assets/images/course-1-2.jpg";
+import lcImage3 from "../assets/images/course-1-3.jpg";
+import lcImage4 from "../assets/images/course-1-4.jpg";
+import lcImage5 from "../assets/images/course-1-5.jpg";
 import { Link } from "gatsby";
 
 const CourseDetails = () => {
@@ -157,55 +158,12 @@ const CourseDetails = () => {
           </div>
 
           <div className="col-lg-4">
-            <div className="course-details__price">
-              <p className="course-details__price-text">Program price </p>
-              <p className="course-details__price-amount">$18.00</p>
-            </div>
-
-            <div className="course-details__meta">
-              <a href="#none" className="course-details__meta-link">
-                <span className="course-details__meta-icon">
-                  <i className="far fa-clock"></i>
-                </span>
-                Durations: <span>10 hours</span>
-              </a>
-              <a href="#none" className="course-details__meta-link">
-                <span className="course-details__meta-icon">
-                  <i className="far fa-folder-open"></i>
-                </span>
-                Lectures: <span>6</span>
-              </a>
-              <a href="#none" className="course-details__meta-link">
-                <span className="course-details__meta-icon">
-                  <i className="far fa-user-circle"></i>
-                </span>
-                Students: <span>Max 4</span>
-              </a>
-              <a href="#none" className="course-details__meta-link">
-                <span className="course-details__meta-icon">
-                  <i className="fas fa-play"></i>
-                </span>
-                Video: <span>8 hours</span>
-              </a>
-              <a href="#none" className="course-details__meta-link">
-                <span className="course-details__meta-icon">
-                  <i className="far fa-flag"></i>
-                </span>
-                Skill Level: <span>Advanced</span>
-              </a>
-              <a href="#none" className="course-details__meta-link">
-                <span className="course-details__meta-icon">
-                  <i className="far fa-bell"></i>
-                </span>
-                Language: <span>English</span>
-              </a>
-            </div>
-            <div className="course-details__list">
+            <div className="course-details__list mt-5">
               <h2 className="course-details__list-title">Other Programs</h2>
 
               <div className="course-details__list-item">
                 <div className="course-details__list-img">
-                  <img src={lcImage1} alt="" />
+                  <img src={lcImage2} alt="" />
                 </div>
                 <div className="course-details__list-content">
                   <a className="course-details__list-author" href="#none">
@@ -220,7 +178,7 @@ const CourseDetails = () => {
 
               <div className="course-details__list-item">
                 <div className="course-details__list-img">
-                  <img src={lcImage1} alt="" />
+                  <img src={lcImage3} alt="" />
                 </div>
                 <div className="course-details__list-content">
                   <a className="course-details__list-author" href="#none">
@@ -235,7 +193,7 @@ const CourseDetails = () => {
 
               <div className="course-details__list-item">
                 <div className="course-details__list-img">
-                  <img src={lcImage2} alt="" />
+                  <img src={lcImage4} alt="" />
                 </div>
                 <div className="course-details__list-content">
                   <a className="course-details__list-author" href="#none">
@@ -251,7 +209,7 @@ const CourseDetails = () => {
               </div>
               <div className="course-details__list-item">
                 <div className="course-details__list-img">
-                  <img src={lcImage1} alt="" />
+                  <img src={lcImage5} alt="" />
                 </div>
                 <div className="course-details__list-content">
                   <a className="course-details__list-author" href="#none">
