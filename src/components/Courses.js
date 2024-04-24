@@ -29,7 +29,7 @@ const Courses = () => {
           <p>
             Welcome to Mahatma Valley Preschool, where every child's journey
             begins with curiosity, creativity, and exploration. Our philosophy
-            is rooted in the belief that early childhood is a critical tme for
+            is rooted in the belief that early childhood is a critical time for
             development, and we are committed to providing a nurturing
             environment where children can thrive and reach their full
             potential.
