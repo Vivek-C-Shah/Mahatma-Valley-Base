@@ -77,7 +77,7 @@ class AboutOne extends Component {
                     className="contact-info-one__text p-2"
                     style={{ textAlign: "justify" }}
                   >
-                    Mahatma Valley is a pre-school focused on the holistic
+                    Mahatma Valley is a <b>PRESCHOOL</b> focused on the holistic
                     development of children, emphasizing the importance of
                     education for their future.
                   </p>
@@ -97,9 +97,9 @@ class AboutOne extends Component {
                     className="contact-info-one__text p-2"
                     style={{ textAlign: "justify" }}
                   >
-                    Fostering compassionate leaders at <br /> Mahatma Valley, we
-                    cultivate Indian values <br /> in a global context,
-                    preparing for diverse challenges and opportunities.
+                    To nurture compassionate leaders and cultivate Indian values
+                    in a global context to prepare our future leaders for
+                    diverse challenges and opportunities.
                   </p>
                 </div>
               </div>

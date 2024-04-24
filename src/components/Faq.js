@@ -66,7 +66,7 @@ const Faq = () => {
                 <p className="faq-one__text">
                   Our classrooms maintain a low teacher-to-student ratio to
                   ensure individualized attention and support. Typically, our
-                  ratio is 2 Teacher + 1 Helper to every 25 children.
+                  ratio is 2 Teachers + 1 Helper to every 25 children.
                 </p>
               </div>
             </div>

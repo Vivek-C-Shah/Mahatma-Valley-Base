@@ -61,7 +61,7 @@ const CourseDetails = () => {
                       </b>
                     </h4>
                     <p>
-                      Welcome to Mahatma Valley, an Innovative Initiative of 11M
+                      Welcome to Mahatma Valley, an Innovative Initiative of IIM
                       Ahmedabad Alumni, designed for children's growth and
                       learning life skills. At Mahatma Valley Innovative
                       Preschool, we focus on nurturing young minds through
@@ -70,7 +70,7 @@ const CourseDetails = () => {
                     <p>
                       Our approach is simple yet effective, ensuring that
                       parents can easily understand and support their child's
-                      learning journey. Believing in a student-centered
+                      learning journey. We believe in a student-centered
                       approach, drawing from research- backed educational
                       methods to create a learning environment that is both
                       stimulating and developmentallv appropriate.
@@ -87,9 +87,9 @@ const CourseDetails = () => {
                       curiosity, critical thinking, investigation, and
                       collaborative learning, we instill a lifelong love for
                       learning in our students. Our teachers take on various
-                      roles: facilitator, observer, and partner — in the
-                      learning process, ensuring that every child receives the
-                      support and guidance they need to thrive.
+                      roles - facilitator, observer, and partner in the learning
+                      process, ensuring that every child receives the support
+                      and guidance they need to thrive.
                     </p>
                     <p>
                       Join us at Mahatma Valley, where learning is not just a
