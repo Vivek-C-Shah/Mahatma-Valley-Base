@@ -115,18 +115,69 @@ const SliderTwo = () => {
                     className="banner-two__tag-line"
                     style={{ color: "#414247" }}
                   >
-                    High quality courses
+                    <pre>        
+
+                    </pre>
                   </p>
                   <h3
                     className="banner-two__title banner-two__light-color"
                     style={{ color: "#414247" }}
                   >
-                    Read & learn <br />
-                    in an easy way
+                    <pre>        
+                      
+                      </pre>
+                      <pre>        
+                        
+                      </pre>
+                      <pre>        
+                        
+                      </pre>
+                      <pre>        
+                        
+                      </pre>
+                      <pre>        
+                        
+                      </pre>
+                      
+                      <pre>        
+                        
+                      </pre>
+                      <pre>        
+                        
+                      </pre>
+                      <pre>        
+                        
+                      </pre>
                   </h3>
                   <Link to="/admissions" className="thm-btn banner-two__btn">
                     Apply here
                   </Link>{" "}
+                  <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre><pre>        
+                      
+                      </pre>
+                      <pre>        
+                      
+                    </pre>
+                  <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre>
                 </div>
               </div>
             </div>
