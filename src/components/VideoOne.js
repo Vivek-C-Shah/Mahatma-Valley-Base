@@ -28,7 +28,7 @@ class VideoOne extends Component {
                   etur elit
                 </h2>
                 <a href="#none" className="thm-btn video-one__btn">
-                  Learn More
+                  Learn More4
                 </a>
               </div>
             </div>

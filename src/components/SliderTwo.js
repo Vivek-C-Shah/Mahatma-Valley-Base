@@ -35,17 +35,71 @@ const SliderTwo = () => {
                     className="banner-two__tag-line"
                     style={{ color: "#414247" }}
                   >
-                    Pre School
+                    <pre>        
+
+                    </pre>
                   </p>
                   <h3
                     className="banner-two__title banner-two__dark-color"
                     style={{ color: "#414247" }}
                   >
-                    Mahatma Valley <br />A Pre School
+                    <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre>
+                    
+                    <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre>
+                    
                   </h3>
-                  <Link to="/about" className="thm-btn banner-two__btn">
-                    Learn More
+                  <Link to="/admissions" className="thm-btn banner-two__btn">
+                    Apply here
                   </Link>{" "}
+                  <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre><pre>        
+                      
+                      </pre>
+                      <pre>        
+                      
+                    </pre>
+                  <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre>
+                    <pre>        
+                      
+                    </pre>
+
                 </div>
               </div>
             </div>
@@ -70,8 +124,8 @@ const SliderTwo = () => {
                     Read & learn <br />
                     in an easy way
                   </h3>
-                  <Link to="/about" className="thm-btn banner-two__btn">
-                    Learn More
+                  <Link to="/admissions" className="thm-btn banner-two__btn">
+                    Apply here
                   </Link>{" "}
                 </div>
               </div>

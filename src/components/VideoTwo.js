@@ -27,7 +27,7 @@ export default class VideoTwo extends Component {
                   <br />
                 </h2>
                 <a href="#none" className="thm-btn">
-                  Learn More
+                  Learn More5
                 </a>
               </div>
             </div>

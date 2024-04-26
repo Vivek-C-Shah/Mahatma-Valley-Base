@@ -14,7 +14,7 @@ const CallToActionOne = () => {
         </h2>
         <div className="cta-one__btn-block">
           <a href="#none" className="thm-btn cta-one__btn">
-            Learn More
+            Learn More2
           </a>
         </div>
       </div>
