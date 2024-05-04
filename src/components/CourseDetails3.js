@@ -188,7 +188,7 @@ const CourseDetails = () => {
 
           <div className="col-lg-4">
             <div className="course-details__list mt-5">
-              <h2 className="course-details__list-title">Other Programs</h2>
+              <h2 className="course-details__list-title">More Programs</h2>
 
               <div className="course-details__list-item">
                 <div className="course-details__list-img">

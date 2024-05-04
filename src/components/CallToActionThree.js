@@ -40,7 +40,7 @@ class CallToActionThree extends Component {
                   </div>
                 </div>
                 <a href="#none" className="thm-btn">
-                  Learn More
+                  Learn More3
                 </a>
               </div>
             </div>

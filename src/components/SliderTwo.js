@@ -151,6 +151,7 @@ const SliderTwo = () => {
                   </h3>
                   <Link to="/admissions" className="thm-btn banner-two__btn">
                     Admissions open
+
                   </Link>{" "}
                   <pre>        
                       

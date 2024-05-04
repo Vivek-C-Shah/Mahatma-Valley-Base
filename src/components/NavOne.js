@@ -99,6 +99,7 @@ class NavOne extends Component {
                   </ul>
             </li>
 */}
+
                 <li>
                   <Link to="/admissions">Admissions</Link>
                 </li>

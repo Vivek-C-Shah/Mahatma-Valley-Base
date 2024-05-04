@@ -36,12 +36,14 @@ const Pricing = () => {
   return (
     <section className="contact-one" style={{ fontFamily: "Patrick Hand" }}>
       <div className="">
-        <h2 className="contact-one__title text-center">Admission Form</h2>
-        <div>
+      <head dangerouslySetInnerHTML={{ __html: `<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">` }} />
+        <h2 className="contact-one__title text-center" style={{ fontFamily: "'Patrick Hand', cursive" }}>Admission Form</h2>
+        <div style={{ fontFamily: "'Patrick Hand', cursive" }}>
           <form
             className="contact-one__form contact-form-validated"
             noValidate="novalidate"
             onSubmit={(e) => Submit(e)}
+            style={{ fontFamily: "'Patrick Hand', cursive" }}
           >
             <div className="flex" style={{ display: "flex" }}>
               <div className="row low-gutters p-5">

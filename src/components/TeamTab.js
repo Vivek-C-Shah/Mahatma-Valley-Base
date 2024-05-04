@@ -90,7 +90,7 @@ const TeamTab = () => {
                     </div>
 
                     <a href="#none" className="thm-btn team-tab__btn">
-                      Learn More
+                      Learn More3
                     </a>
                   </div>
                 </div>
@@ -181,7 +181,7 @@ const TeamTab = () => {
                       </div>
                     </div>
                     <a href="#none" className="thm-btn team-tab__btn">
-                      Learn More
+                      Learn More3
                     </a>
                   </div>
                 </div>

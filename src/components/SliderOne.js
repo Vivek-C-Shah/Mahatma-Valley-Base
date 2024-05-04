@@ -40,7 +40,7 @@ const SliderOne = () => {
                     are you ready to learn?
                   </p>
                   <a href="#none" className="thm-btn banner-one__btn">
-                    Learn More
+                    Learn More1
                   </a>
                 </div>
               </div>
@@ -63,7 +63,7 @@ const SliderOne = () => {
                     are you ready to learn?
                   </p>
                   <a href="#none" className="thm-btn banner-one__btn">
-                    Learn More
+                    Learn More1
                   </a>
                 </div>
               </div>
