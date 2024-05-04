@@ -6,10 +6,11 @@ import lcImage1 from "../assets/images/lc-1-1.jpg";
 import lcImage2 from "../assets/images/lc-1-2.jpg";
 import lcImage3 from "../assets/images/lc-1-3.jpg";
 import { Link } from "gatsby";
+import '@fontsource/patrick-hand';
 
 const CourseDetails = () => {
   return (
-    <section className="course-details">
+    <section className="course-details" style={{ fontFamily: "Patrick Hand", fontSize: "22px"}}>
       <div className="container">
         <div className="row">
           <div className="col-lg-12">

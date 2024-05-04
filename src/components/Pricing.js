@@ -34,7 +34,7 @@ const Pricing = () => {
   }
 
   return (
-    <section className="contact-one">
+    <section className="contact-one" style={{ fontFamily: "Patrick Hand" }}>
       <div className="">
         <h2 className="contact-one__title text-center">Admission Form</h2>
         <div>

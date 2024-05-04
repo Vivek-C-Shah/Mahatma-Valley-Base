@@ -1,5 +1,8 @@
 import React, { useState } from "react";
-import course1 from "../assets/images/course-1-1.jpg";
+import course1 from "../assets/images/mithakali.jpeg";
+import course2 from "../assets/images/motera.jpeg";
+import '@fontsource/patrick-hand';
+
 
 const Contact = () => {
   const [message, setMessage] = useState("");
@@ -38,7 +41,7 @@ const Contact = () => {
     <div>
       <section className="contact-one">
         <div className="container">
-          <p>
+          <p style={{ fontFamily: "Patrick Hand", fontSize: "22px" }}>
             Ready to embark on a journey of discovery, laughter, and learning at
             Mahatma Valley Innovative Preschool? Contact us today to schedule a
             tour and experience the vibrant life of our preschool community
@@ -106,25 +109,30 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      {/* Add code ends here */}
+      {/* Add code starts here */}
       <div>
         <div className="map-container">
+          <h2 className="contact-one__title text-center" style={{ fontFamily: "Patrick Hand", fontSize: "24px" }}>
+            Our Branches
+          </h2>
           <div style={{ display: "flex" }}>
             <div className="map-container col-lg-6">
-              <iframe
+              <h3 style={{ fontFamily: "Patrick Hand" }}>Mithakali School: Triveni Duplex, Opp. Mangal Vidhyalay, Mithakhali Six Road, Navrangpura, Ahmedabad-380009 Gujarat, India</h3>
+              <a href="https://maps.app.goo.gl/wmbYc4HhSfS8ckHf6" target="_blank" rel="noreferrer"> Click here for directions</a>
+              <img
                 src={course1}
                 className="google-map__contact"
-                title="template google map"
-                allowFullScreen=""
-              ></iframe>
+                alt="Mithakali School"
+              />
             </div>
             <div className="map-container col-lg-6">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d117427.38592857563!2d72.52158079795781!3d23.111521608099554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x678bb68e3d61ca97%3A0xec23598d7724ba81!2s44%2C%20Aditya%20Avenue%2C%20T%20P%20Rd%2C%20opposite%20Shrusti%20Arcade%2C%20Nigam%20Nagar%2C%20Chandkheda%2C%20Ahmedabad%2C%20Gujarat%20382424!3m2!1d23.111542999999998!2d72.60398239999999!5e0!3m2!1sen!2sin!4v1702454714158!5m2!1sen!2sin"
+              <h3 style={{ fontFamily: "Patrick Hand" }}>Motera School: Opposite Shrusti Arcade, T.P. 44, Visat Gandhinagar Highway Chandkheda, Ahmedabad - 382424 Gujarat, India</h3>
+              <a href="https://maps.app.goo.gl/wmbYc4HhSfS8ckHf6" target="_blank" rel="noreferrer"> Click here for directions</a>
+              <img
+                src={course2}
                 className="google-map__contact"
-                title="template google map"
-                allowFullScreen=""
-              ></iframe>
+                alt="Motera School"
+              />
             </div>
           </div>
 

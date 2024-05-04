@@ -34,11 +34,12 @@
 * 1. common styles
 */
 body {
-  font-family: "Poppins";
+  font-family: "Patrick Hand";
   color: #81868a;
   font-size: 16px;
   line-height: 34px;
   letter-spacing: -0.02em;
+  font-size : 22px;
 }
 
 a:active,
