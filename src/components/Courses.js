@@ -54,7 +54,7 @@ const Courses = () => {
                   <Link to="/course-details">Toddler Program</Link>
                 </h2>
                 <Link to="/course-details" className="course-one__link">
-                  See Preview
+                  More...
                 </Link>
               </div>
             </div>
@@ -76,7 +76,7 @@ const Courses = () => {
                   <Link to="/course-details-two">Playgroup</Link>
                 </h2>
                 <Link to="/course-details-two" className="course-one__link">
-                  See Preview
+                  More...
                 </Link>
               </div>
             </div>
@@ -99,7 +99,7 @@ const Courses = () => {
                   <Link to="/course-details-three">Nursery</Link>
                 </h2>
                 <Link to="/course-details-three" className="course-one__link">
-                  See Preview
+                  More...
                 </Link>
               </div>
             </div>
@@ -126,7 +126,7 @@ const Courses = () => {
                   </Link>
                 </h2>
                 <Link to="/course-details-four" className="course-one__link">
-                  See Preview
+                  More...
                 </Link>
               </div>
             </div>
@@ -151,7 +151,7 @@ const Courses = () => {
                   </Link>
                 </h2>
                 <Link to="/course-details-five" className="course-one__link">
-                  See Preview
+                  More...
                 </Link>
               </div>
             </div>
