@@ -1,7 +1,9 @@
 import React from "react";
 import team1 from "../assets/images/logo.png";
-import courseD1 from "../assets/images/course-1-2 (Custom).jpg";
+import team2 from "../assets/images/team-1-1.jpg";
+import courseD1 from "../assets/images/course-1-1 (Custom).jpg";
 import lcImage1 from "../assets/images/course-1-1.jpg";
+import lcImage2 from "../assets/images/course-1-2.jpg";
 import lcImage3 from "../assets/images/course-1-3.jpg";
 import lcImage4 from "../assets/images/course-1-4.jpg";
 import lcImage5 from "../assets/images/course-1-5.jpg";
@@ -21,7 +23,7 @@ const CourseDetails = () => {
 
               <div className="course-details__top">
                 <div className="course-details__top-left">
-                  <h2 className="course-details__title">Playgroup</h2>
+                  <h2 className="course-details__title">Daycare Program</h2>
                 </div>
                 <div className="course-details__top-right">
                   <a href="#none" className="course-one__category">
@@ -44,21 +46,6 @@ const CourseDetails = () => {
                     Overview
                   </a>
                 </li>
-                <li>
-                  <a
-                    className=""
-                    role="tab"
-                    data-toggle="tab"
-                    href="#curriculum"
-                  >
-                    Curriculum
-                  </a>
-                </li>
-                <li>
-                  <a className="" role="tab" data-toggle="tab" href="#outcomes">
-                    Outcomes
-                  </a>
-                </li>
               </ul>
               <div className="tab-content course-details__tab-content ">
                 <div
@@ -66,88 +53,53 @@ const CourseDetails = () => {
                   role="tabpanel"
                   id="overview"
                 >
-                  <h4>Spark Curiosity Through Play (Age 2 years and above)</h4>
+                  <h4>
+                    Providing a Safe, Nurturing, and Educational Environment.{" "}
+                  </h4>
                   <br />
                   <section
                     className="course-details__tab-text"
+                    style={{ fontSize: "24px" }}
                     id="overview"
-                    style={{ fontSize: "24px" }}
                   >
-                    <h4>
-                      <b>Overview:</b>
-                    </h4>
-                    <uL>
-                      <li>
-                        <b>Focus:</b> This program creates a warm and nurturing
-                        environment where toddlers can explore, discover, and
-                        build social connections through play.
-                      </li>
-                      <li>
-                        <b>Learning Through Play:</b> Our playgroup curriculum
-                        is designed around the idea that play is the most
-                        effective way for young children to learn. We provide a
-                        variety of engaging activities that stimulate all five
-                        senses.
-                      </li>
-                    </uL>
+                    <p>
+                      Our Daycare Program is a wonderland of fun and discovery.
+                      We create a warm and playful space where little ones can
+                      embark on exciting daily adventures filled with laughter,
+                      exploration, and learning.
+                    </p>
+                    <p>
+                      <b>Your Child's Safe Haven:</b> Your child's safety is our
+                      top priority. We maintain a secure facility with
+                      age-appropriate equipment and a trained staff.
+                    </p>
+                    <p>
+                      <b>Healthy Habits:</b> We promote healthy habits by
+                      encouraging regular handwashing, and incorporating plenty
+                      of physical activity throughout the day.
+                    </p>
+                    <p>
+                      <b>Social and Emotional Growth:</b> Our program fosters
+                      social and emotional development by teaching children
+                      about kindness, sharing, and working together. We provide
+                      a safe space for children to express their emotions and
+                      learn healthy coping mechanisms.
+                    </p>
+                    <p>
+                      <b> Nature Exploration:</b> Weather permitting, we venture
+                      outdoors in our spacious campus for nature walks exploring
+                      the wonders of the natural world firsthand. This fosters a
+                      love for the environment and provides opportunities for
+                      gross motor development.
+                    </p>
+                    <p>
+                      Our Daycare Program isn't just childcare – it's a joyful
+                      launchpad for young minds We go beyond a set schedule,
+                      creating enriching experiences that spark a love for
+                      learning and build happy memories.
+                    </p>
                   </section>
                   <br />
-                  <section
-                    className="course-details__tab-text"
-                    id="curriculum"
-                    style={{ fontSize: "24px" }}
-                  >
-                    <h4>
-                      <b>Curriculum:</b>
-                    </h4>
-                    <ul>
-                      <li>
-                        <b>Sensory Exploration:</b> We offer a variety of
-                        materials and activities that allow children to explore
-                        textures, sounds, colors, and shapes. This helps them
-                        develop their cognitive skills and understanding of the
-                        world around them.{" "}
-                      </li>
-                      <li>
-                        <b>Social Interaction:</b> Through small group
-                        activities and playtime, children learn to share, take
-                        turns, and communicate with their peers. This fosters
-                        social skills and emotional development.
-                      </li>
-                      <li>
-                        <b>Language Development:</b> We incorporate songs,
-                        rhymes, and simple stories into our daily routine. This
-                        helps children develop their listening skills,
-                        vocabulary, and early communication skills.
-                      </li>
-                      <li>
-                        <b>Fine and Gross Motor Skills:</b> Playgroup activities
-                        like building with blocks, playing with dough, and
-                        running around outdoors help children develop the small
-                        and large muscle movements they need for everyday life.
-                      </li>
-                    </ul>
-                  </section>
-                  <br />
-                  <section
-                    className="course-details__tab-text"
-                    id="outcomes"
-                    style={{ fontSize: "24px" }}
-                  >
-                    <h4>
-                      <b>Outcomes:</b>
-                    </h4>
-                    <ul>
-                      <li>Develop a love for learning and exploration.</li>
-                      <li>
-                        Build strong social skills and emotional intelligence.
-                      </li>
-                      <li>
-                        Enhance their communication and language abilities.
-                      </li>
-                      <li>Improve fine and gross motor skills.</li>
-                    </ul>
-                  </section>
                 </div>
                 <div
                   className="tab-pane  animated fadeInUp"
@@ -202,7 +154,6 @@ const CourseDetails = () => {
           <div className="col-lg-4">
             <div className="course-details__list mt-5">
               <h2 className="course-details__list-title">More Programs</h2>
-
               <div className="course-details__list-item">
                 <div className="course-details__list-img">
                   <img src={lcImage1} alt="" />
@@ -214,6 +165,21 @@ const CourseDetails = () => {
                   <h3>
                     {" "}
                     <Link to="/course-details">Toddler Program</Link>
+                  </h3>
+                </div>
+              </div>
+
+              <div className="course-details__list-item">
+                <div className="course-details__list-img">
+                  <img src={lcImage2} alt="" />
+                </div>
+                <div className="course-details__list-content">
+                  <a className="course-details__list-author" href="#none">
+                    by <span>Mahatma Valley</span>
+                  </a>
+                  <h3>
+                    {" "}
+                    <Link to="/course-details-two">Playgroup</Link>
                   </h3>
                 </div>
               </div>
@@ -262,20 +228,6 @@ const CourseDetails = () => {
                     <Link to="/course-details-five">
                       Senior Kindergarten (Sr.KG)
                     </Link>
-                  </h3>
-                </div>
-              </div>
-              <div className="course-details__list-item">
-                <div className="course-details__list-img">
-                  <img src={lcImage1} alt="" />
-                </div>
-                <div className="course-details__list-content">
-                  <a className="course-details__list-author" href="#none">
-                    by <span>Mahatma Valley</span>
-                  </a>
-                  <h3>
-                    {" "}
-                    <Link to="/course-details-six">Daycare Program</Link>
                   </h3>
                 </div>
               </div>
