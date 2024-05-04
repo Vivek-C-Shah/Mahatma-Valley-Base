@@ -15,12 +15,12 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="Mahatma Valley | About">
       <NavOne />
-      <PageHeader title="About" />
+      <PageHeader title="About Us" />
       <AboutTwo />
       {/*<TeamOne />*/}
       {/*<VideoOne />*/}
       {/* <BrandsTwo /> */}
-      <TestimonialOne />
+      {/* <TestimonialOne /> */}
       {/* <CallToActionOne /> */}
       <Footer />
     </Layout>

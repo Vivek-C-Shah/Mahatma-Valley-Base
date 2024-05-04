@@ -350,7 +350,7 @@ const Pricing = () => {
                     fontWeight: "bold",
                   }}
                 >
-                  How did you reach us
+                  How did you find us
                 </h2>
                 <select
                   name="Howdidyoureachus"
