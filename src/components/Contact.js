@@ -118,7 +118,7 @@ const Contact = () => {
           <div style={{ display: "flex" }}>
             <div className="map-container col-lg-6">
               <h3 style={{ fontFamily: "Patrick Hand" }}>Mithakali School: Triveni Duplex, Opp. Mangal Vidhyalay, Mithakhali Six Road, Navrangpura, Ahmedabad-380009 Gujarat, India</h3>
-              <a href="https://maps.app.goo.gl/wmbYc4HhSfS8ckHf6" target="_blank" rel="noreferrer"> Click here for directions</a>
+              <a href="https://maps.app.goo.gl/5u3KB4GZGX2VGGNWA" target="_blank" rel="noreferrer"> Click here for directions</a>
               <img
                 src={course1}
                 className="google-map__contact"

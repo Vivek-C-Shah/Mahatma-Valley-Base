@@ -70,7 +70,7 @@ class AboutOne extends Component {
                   </div>
                   <h2 className="contact-info-one__title">
                     <Link to="/about" style={{ color: "black" }}>
-                      About Page
+                      About Us
                     </Link>{" "}
                   </h2>
                   <p

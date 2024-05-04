@@ -24,7 +24,7 @@ const Footer = () => {
                   <div className="footer-widget__link-wrap">
                     <ul className="list-unstyled footer-widget__link-list">
                       <li>
-                        <Link to="/about">About Page</Link>
+                        <Link to="/about">About Us</Link>
                       </li>
                       <li>
                         <Link to="/admissions">Admissions</Link>
@@ -95,11 +95,10 @@ const Footer = () => {
         <div className="site-footer__bottom">
           <div className="container">
             <p className="site-footer__copy">
-              &copy; Copyright by VenV{" "}
-              <a href="https://www.linkedin.com/in/the-cipher-vivek">
-                Vivek Shah
+              &copy; Copyright by{" "}
+              <a href="https://www.linkedin.com/company/venv-developers/">
+                VenV
               </a>
-              <a href="https://www.linkedin.com/in/vrajshah113/">Vraj Shah</a>
             </p>
             <div className="site-footer__social">
               <div

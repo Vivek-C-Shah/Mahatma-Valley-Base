@@ -107,7 +107,7 @@ class NavThree extends Component {
                   <a href="#none">Pages</a>
                   <ul className="sub-menu">
                     <li>
-                      <Link to="/about">About Page</Link>
+                      <Link to="/about">About Us</Link>
                     </li>
                     <li>
                       <Link to="/gallery">Gallery</Link>
