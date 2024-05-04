@@ -9,7 +9,7 @@ const CoursesPage = () => {
   return (
     <Layout pageTitle="Mahatma Valley | Courses">
       <NavOne />
-      <PageHeader title="Courses" />
+      <PageHeader title="Programs" />
       <Courses />
       <Footer />
     </Layout>

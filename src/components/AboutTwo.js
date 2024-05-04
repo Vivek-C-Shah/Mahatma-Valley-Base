@@ -6,10 +6,11 @@ import lcImage1 from "../assets/images/lc-1-1.jpg";
 import lcImage2 from "../assets/images/lc-1-2.jpg";
 import lcImage3 from "../assets/images/lc-1-3.jpg";
 import { Link } from "gatsby";
+import '@fontsource/patrick-hand';
 
 const CourseDetails = () => {
   return (
-    <section className="course-details">
+    <section className="course-details" style={{ fontFamily: "Patrick Hand", fontSize: "22px"}}>
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
@@ -130,7 +131,7 @@ const CourseDetails = () => {
                   </section>
                   <br />
                   <section
-                    className="list-unstyled course-details__overview-list pt-2"
+                    className="course-details__tab-text pt-2"
                     id="outcomes"
                   >
                     <h4 className="pb-3 pt-4">
@@ -148,6 +149,44 @@ const CourseDetails = () => {
                       environment where children can thrive and reach their tull
                       potential.
                     </p>
+
+                    <h4>
+                      <b>
+                        <ul>
+                          <u>Our approach:</u>
+                        </ul>
+                      </b>
+                    </h4>
+                    <ul>
+                      <li>
+                        <b>Reggio Emilia Approach:</b> Inspired by the Reggio
+                        Emilia philosophy, our curriculum emphasizes the
+                        importance of child-led learning and the role of the
+                        environment as the "third teacher." We believe that
+                        children are capable, curious individuals who learn best
+                        through hands-on experiences and exploration. Our campus
+                        is designed to be inviting and reflective spaces that
+                        encourage creativity, and collaboration.
+                      </li>
+                      <li>
+                        <b> Montessori Method:</b> We incorporate principles of
+                        independence, freedom within limits, and respect for the
+                        child into our curriculum. Through carefully curated
+                        materials and self-directed activities, we foster the
+                        development of concentration, problem-solving skills,
+                        and a love for learning.
+                      </li>
+                      <li>
+                        <b>Waldorf Education: </b>Rooted in the principles of
+                        holistic education, our curriculum reflects the Waldorf
+                        approach by addressing the intellectual, artistic, and
+                        practical dimensions of child development. We place a
+                        strong emphasis on creativity, imagination, and rhythm
+                        in learning. Through storytelling, music, art, and
+                        movement, we engage children's senses and cultivate a
+                        deep connection to the natural world.
+                      </li>
+                    </ul>
                   </section>
 
                   <section
