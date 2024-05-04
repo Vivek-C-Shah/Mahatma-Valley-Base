@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import course1 from "../assets/images/mithakali.jpeg";
 import course2 from "../assets/images/motera.jpeg";
-import '@fontsource/patrick-hand';
-
+import "@fontsource/patrick-hand";
 
 const Contact = () => {
   const [message, setMessage] = useState("");
@@ -112,13 +111,27 @@ const Contact = () => {
       {/* Add code starts here */}
       <div>
         <div className="map-container">
-          <h2 className="contact-one__title text-center" style={{ fontFamily: "Patrick Hand", fontSize: "24px" }}>
-            Our Branches
+          <h2
+            className="contact-one__title text-center"
+            style={{ fontFamily: "Patrick Hand", fontSize: "24px" }}
+          >
+            Our Campuses
           </h2>
           <div style={{ display: "flex" }}>
             <div className="map-container col-lg-6">
-              <h3 style={{ fontFamily: "Patrick Hand", fontSize: "22px"}}>Mithakali School: Triveni Duplex, Opp. Mangal Vidhyalay, Mithakhali Six Road, Navrangpura, Ahmedabad-380009 Gujarat, India</h3>
-              <a href="https://maps.app.goo.gl/5u3KB4GZGX2VGGNWA" target="_blank" rel="noreferrer"> Click here for directions</a>
+              <h3 style={{ fontFamily: "Patrick Hand", fontSize: "22px" }}>
+                Mithakali School: Triveni Duplex, Opp. Mangal Vidhyalay,
+                Mithakhali Six Road, Navrangpura, Ahmedabad-380009 Gujarat,
+                India
+              </h3>
+              <a
+                href="https://maps.app.goo.gl/5u3KB4GZGX2VGGNWA"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Click here for directions
+              </a>
               <img
                 src={course1}
                 className="google-map__contact"
@@ -126,8 +139,19 @@ const Contact = () => {
               />
             </div>
             <div className="map-container col-lg-6">
-              <h3 style={{ fontFamily: "Patrick Hand", fontSize: "22px"}}>Motera School: Opposite Shrusti Arcade, T.P. 44, Visat Gandhinagar Highway Chandkheda, Ahmedabad - 382424 Gujarat, India</h3>
-              <a href="https://maps.app.goo.gl/wmbYc4HhSfS8ckHf6" target="_blank" rel="noreferrer"> Click here for directions</a>
+              <h3 style={{ fontFamily: "Patrick Hand", fontSize: "22px" }}>
+                Motera School: Opposite Shrusti Arcade, T.P. 44, Visat
+                Gandhinagar Highway Chandkheda, Ahmedabad - 382424 Gujarat,
+                India
+              </h3>
+              <a
+                href="https://maps.app.goo.gl/wmbYc4HhSfS8ckHf6"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Click here for directions
+              </a>
               <img
                 src={course2}
                 className="google-map__contact"
