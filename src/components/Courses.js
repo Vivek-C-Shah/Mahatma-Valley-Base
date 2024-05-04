@@ -54,6 +54,28 @@ const Courses = () => {
                   by <Link to="/teacher-details">Mahatma Valley</Link>
                 </div>
                 <h2 className="course-one__title">
+                  <Link to="/course-details-six">Daycare Program</Link>
+                </h2>
+                <Link to="/course-details-six" className="course-one__link">
+                  More...
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <div className="course-one__single">
+              <div className="course-one__image">
+                <img src={course1} alt="" />
+              </div>
+              <div className="course-one__content">
+                <a href="#none" className="course-one__category">
+                  Foundation{" "}
+                </a>
+                <div className="course-one__admin">
+                  <img src={team1} alt="" />
+                  by <Link to="/teacher-details">Mahatma Valley</Link>
+                </div>
+                <h2 className="course-one__title">
                   <Link to="/course-details">Toddler Program</Link>
                 </h2>
                 <Link to="/course-details" className="course-one__link">

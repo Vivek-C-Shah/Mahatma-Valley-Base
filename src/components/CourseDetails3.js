@@ -270,6 +270,20 @@ const CourseDetails = () => {
                   </h3>
                 </div>
               </div>
+              <div className="course-details__list-item">
+                <div className="course-details__list-img">
+                  <img src={lcImage1} alt="" />
+                </div>
+                <div className="course-details__list-content">
+                  <a className="course-details__list-author" href="#none">
+                    by <span>Mahatma Valley</span>
+                  </a>
+                  <h3>
+                    {" "}
+                    <Link to="/course-details-six">Daycare Program</Link>
+                  </h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>

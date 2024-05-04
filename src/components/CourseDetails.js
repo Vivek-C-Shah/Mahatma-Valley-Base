@@ -2,6 +2,7 @@ import React from "react";
 import team1 from "../assets/images/logo.png";
 import team2 from "../assets/images/team-1-1.jpg";
 import courseD1 from "../assets/images/course-1-1 (Custom).jpg";
+import lcImage1 from "../assets/images/course-1-1.jpg";
 import lcImage2 from "../assets/images/course-1-2.jpg";
 import lcImage3 from "../assets/images/course-1-3.jpg";
 import lcImage4 from "../assets/images/course-1-4.jpg";
@@ -276,6 +277,20 @@ const CourseDetails = () => {
                     <Link to="/course-details-five">
                       Senior Kindergarten (Sr.KG)
                     </Link>
+                  </h3>
+                </div>
+              </div>
+              <div className="course-details__list-item">
+                <div className="course-details__list-img">
+                  <img src={lcImage1} alt="" />
+                </div>
+                <div className="course-details__list-content">
+                  <a className="course-details__list-author" href="#none">
+                    by <span>Mahatma Valley</span>
+                  </a>
+                  <h3>
+                    {" "}
+                    <Link to="/course-details-six">Daycare Program</Link>
                   </h3>
                 </div>
               </div>
