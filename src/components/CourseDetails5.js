@@ -74,8 +74,14 @@ const CourseDetails = () => {
                     and above)
                   </h4>
                   <br />
-                  <section className="course-details__tab-text" id="overview">
-                    <h4>Overview:</h4>
+                  <section
+                    className="course-details__tab-text"
+                    id="overview"
+                    style={{ fontSize: "24px" }}
+                  >
+                    <h4>
+                      <b>Overview:</b>
+                    </h4>
                     <p>
                       <b>Focus:</b> Our Senior KG program bridges the gap
                       between preschool and kindergarten. We provide a
@@ -87,8 +93,14 @@ const CourseDetails = () => {
                     </p>
                   </section>
                   <br />
-                  <section className="course-details__tab-text" id="curriculum">
-                    <h4>Curriculum:</h4>
+                  <section
+                    className="course-details__tab-text"
+                    id="curriculum"
+                    style={{ fontSize: "24px" }}
+                  >
+                    <h4>
+                      <b>Curriculum:</b>
+                    </h4>
                     <ul>
                       <li>
                         <b>Advanced Literacy:</b> Children delve deeper into
@@ -125,8 +137,14 @@ const CourseDetails = () => {
                     </ul>
                   </section>
                   <br />
-                  <section className="course-details__tab-text" id="outcomes">
-                    <h4>Outcomes:</h4>
+                  <section
+                    className="course-details__tab-text"
+                    id="outcomes"
+                    style={{ fontSize: "24px" }}
+                  >
+                    <h4>
+                      <b>Outcomes:</b>
+                    </h4>
                     <p>The Senior KG program helps children:</p>
                     <ul>
                       <li>

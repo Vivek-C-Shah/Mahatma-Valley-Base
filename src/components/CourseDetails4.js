@@ -73,8 +73,14 @@ const CourseDetails = () => {
                     Igniting a Passion for Learning (Age 4 years and above)
                   </h4>
                   <br />
-                  <section className="course-details__tab-text" id="overview">
-                    <h4>Overview:</h4>
+                  <section
+                    className="course-details__tab-text"
+                    id="overview"
+                    style={{ fontSize: "24px" }}
+                  >
+                    <h4>
+                      <b>Overview:</b>
+                    </h4>
                     <ul>
                       <li>
                         <b>Focus:</b> The Junior KG program builds upon the
@@ -93,8 +99,14 @@ const CourseDetails = () => {
                     </ul>
                   </section>
                   <br />
-                  <section className="course-details__tab-text" id="curriculum">
-                    <h4>Curriculum:</h4>
+                  <section
+                    className="course-details__tab-text"
+                    id="curriculum"
+                    style={{ fontSize: "24px" }}
+                  >
+                    <h4>
+                      <b>Curriculum:</b>
+                    </h4>
                     <p>
                       Our curriculum offers a stimulating blend of activities
                       that cater to different learning styles:{" "}
@@ -129,8 +141,14 @@ const CourseDetails = () => {
                     </ul>
                   </section>
                   <br />
-                  <section className="course-details__tab-text" id="outcomes">
-                    <h4>Outcomes:</h4>
+                  <section
+                    className="course-details__tab-text"
+                    id="outcomes"
+                    style={{ fontSize: "24px" }}
+                  >
+                    <h4>
+                      <b>Outcomes:</b>
+                    </h4>
                     <p>The Junior KG program helps children: </p>
                     <ul>
                       <li>Develop strong reading and writing skills.</li>
