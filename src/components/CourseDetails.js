@@ -67,44 +67,100 @@ const CourseDetails = () => {
                   role="tabpanel"
                   id="overview"
                 >
-                  <section className="course-details__tab-text" id="overview">
-                    <h4>Building a Strong Foundation:</h4>
-                    Our Primary Year Program is designed to foster the
-                    intellectual, social, and emotional growth of children aged
-                    2.5 to 5 years. With a balanced blend of academic and
-                    practical learning experiences, students develop essential
-                    skills and a love for learning that lasts a lifetime.
+                  <h4>
+                    Our Toddler Program provides a nurturing and stimulating
+                    environment that paves the way for well-rounded development
+                    and a smooth transition to preschool.
+                  </h4>
+                  <br />
+                  <section
+                    className="course-details__tab-text"
+                    style={{ fontSize: "24px" }}
+                    id="overview"
+                  >
+                    <h4>
+                      <b>Overview:</b>
+                    </h4>
+                    <p>
+                      Our Toddler Program goes beyond simple childcare. We
+                      provide a warm and nurturing environment specifically
+                      designed to nurture the rapid development of children.
+                      Here, we focus on igniting a love for learning through
+                      exploration, social interaction, and fostering
+                      foundational skills in a safe and stimulating
+                      play-based environment.
+                    </p>
                   </section>
                   <br />
-                  <section className="course-details__tab-text" id="curriculum">
-                    <h4>Our Program Includes:</h4>
+                  <section
+                    className="course-details__tab-text"
+                    id="curriculum"
+                    style={{ fontSize: "24px" }}
+                  >
+                    <h4>
+                      <b>Curriculum:</b>
+                    </h4>
                     <ul>
-                      <li>A safe and loving environment.</li>
                       <li>
-                        Small class sizes A variety of age-appropriate
-                        activities.
+                        <b>Express and Manage Emotions:</b> Toddlers are still
+                        learning to identify and manage their emotions. Our
+                        program provides a safe and supportive environment where
+                        they can express their feelings openly and learn healthy
+                        coping mechanisms through teacher guidance and social
+                        interaction.
                       </li>
                       <li>
-                        Experienced and qualified educators A focus on the whole
-                        child
+                        <b>Play as the Primary Learning Tool:</b> We know that
+                        toddlers learn best through play. Our program utilizes a
+                        play-based approach that allows them to explore
+                        concepts, develop skills, and express themselves
+                        creatively in a fun and engaging way.
+                      </li>
+                      <li>
+                        <b>Building Confidence Through Exploration:</b> As
+                        toddlers explore and experiment, they gain a sense of
+                        mastery and accomplishment. This fosters confidence in
+                        their abilities and motivates them to continue learning
+                        and exploring the world around them.
                       </li>
                     </ul>
                   </section>
                   <br />
                   <section
-                    className="list-unstyled course-details__overview-list"
+                    className="course-details__tab-text"
                     id="outcomes"
+                    style={{ fontSize: "24px" }}
                   >
-                    <h4>Nurturing Your Child's Potential:</h4>
-                    <p>
-                      The early years of a child's life are a time of tremendous
-                      growth and development. Our early years program provides a
-                      nurturing and stimulating environment where children can
-                      learn and explore at their own pace. Our experienced
-                      educators will guide your child through a variety of
-                      activities that promote social, emotional, cognitive, and
-                      physical development.
-                    </p>
+                    <h4>
+                      <b>Outcome:</b>
+                    </h4>
+                    <li>
+                      <b>Love for learning:</b> Our program fosters a natural
+                      curiosity about the world and ignites a passion for
+                      exploration and discovery.
+                    </li>
+                    <li>
+                      <b>Strong social skills:</b> Through play and interaction
+                      with peers, toddlers develop essential social skills like
+                      communication, collaboration, and empathy.
+                    </li>
+                    <li>
+                      <b>Emotional intelligence: </b>We provide a safe space for
+                      toddlers to express their emotions and learn healthy
+                      coping mechanisms, fostering emotional regulation and
+                      self-awareness.
+                    </li>
+                    <li>
+                      <b>Fine and gross motor development:</b> Through
+                      play-based activities, toddlers develop the fine and gross
+                      motor skills needed for everyday tasks and future learning
+                    </li>
+                    <li>
+                      <b> Confidence and independence:</b> As toddlers explore
+                      and experiment, they gain a sense of mastery and
+                      confidence in their abilities, fostering independence and
+                      self-esteem.
+                    </li>
                   </section>
                 </div>
                 <div

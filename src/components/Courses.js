@@ -15,7 +15,10 @@ import team6 from "../assets/images/team-1-6.jpg";
 
 const Courses = () => {
   return (
-    <section className="course-one course-page" style={{ fontFamily: "Patrick Hand" }}>
+    <section
+      className="course-one course-page"
+      style={{ fontFamily: "Patrick Hand" }}
+    >
       <div className="container">
         <section
           className="list-unstyled course-details__overview-list pt-2"
