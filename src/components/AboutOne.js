@@ -35,6 +35,7 @@ class AboutOne extends Component {
               >
                 <br />
                 Mahatma Valley: <br />
+                <br/>
                 Nurturing Tomorrow's Leaders
               </div>
             </div>
@@ -46,7 +47,6 @@ class AboutOne extends Component {
                 style={{
                   fontSize: "125%",
                   color: "#000000",
-                  fontWeight: "bold",
                 }}
               >
                 At Mahatma Valley - An International Pre School, we are
@@ -77,7 +77,7 @@ class AboutOne extends Component {
                     className="contact-info-one__text p-2"
                     style={{ textAlign: "justify" }}
                   >
-                    Mahatma Valley is a <b>PRESCHOOL</b> focused on the holistic
+                    Mahatma Valley is a <b>preschool</b> focused on the holistic
                     development of children, emphasizing the importance of
                     education for their future.
                   </p>

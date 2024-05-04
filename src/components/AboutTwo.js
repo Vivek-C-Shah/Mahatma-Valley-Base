@@ -55,13 +55,13 @@ const CourseDetails = () => {
                   <section
                     className="course-details__tab-text pt-2"
                     id="overview"
-                  >
+                    style={{fontSize: "24px"}}>
                     <h4 className="pb-3 ">
                       <b>
-                        <u>About Us:</u>
+                        <u style={{fontSize: "28px"}}>About Us:</u>
                       </b>
                     </h4>
-                    <p>
+                    <p style={{fontSize: "24px"}}>
                       Welcome to Mahatma Valley, an Innovative Initiative of IIM
                       Ahmedabad Alumni, designed for children's growth and
                       learning life skills. At Mahatma Valley Innovative
@@ -103,10 +103,11 @@ const CourseDetails = () => {
                   <section
                     className="course-details__tab-text pt-2"
                     id="vision"
+                    style={{fontSize: "24px"}}
                   >
                     <h4 className="pb-3 pt-4">
                       <b>
-                        <u>Vision:</u>
+                        <u style={{fontSize: "28px"}}>Vision:</u>
                       </b>
                     </h4>
                     <ul>
@@ -133,10 +134,11 @@ const CourseDetails = () => {
                   <section
                     className="course-details__tab-text pt-2"
                     id="outcomes"
+                    style={{fontSize: "24px"}}
                   >
                     <h4 className="pb-3 pt-4">
                       <b>
-                        <u>Curriculum Structure:</u>
+                        <u style={{fontSize: "28px"}}>Curriculum Structure:</u>
                       </b>
                     </h4>
                     <p>
@@ -192,10 +194,11 @@ const CourseDetails = () => {
                   <section
                     className="list-unstyled course-details__overview-list pt-2"
                     id="Student Life"
+                    style={{fontSize: "24px"}}
                   >
                     <h4 className="pb-3 pt-4">
                       <b>
-                        <u>Life At Mahatma Valley</u>
+                        <u style={{fontSize: "28px"}}>Life At Mahatma Valley</u>
                       </b>
                     </h4>
                     <p>
@@ -203,8 +206,7 @@ const CourseDetails = () => {
                       laughter, learning, and new discoveries. Our vibrant
                       community fosters a warm and inclusive atmosphere where
                       children feel safe, valued, and empowered to explore the
-                      world around them. Here's a glimpse into life at Mahatma
-                      Valley:
+                      world around them. 
                     </p>
                   </section>
                 </div>

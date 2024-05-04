@@ -9,7 +9,7 @@ const GalleryPage = () => {
   return (
     <Layout pageTitle="Mahatma Valley | Contact">
       <NavOne />
-      <PageHeader title="Contact" />
+      <PageHeader title="Contact Us" />
       <Contact />
       <Footer />
     </Layout>
