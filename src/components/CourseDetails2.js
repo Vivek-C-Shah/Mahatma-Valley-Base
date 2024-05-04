@@ -66,44 +66,69 @@ const CourseDetails = () => {
                   role="tabpanel"
                   id="overview"
                 >
+                  <h4>Spark Curiosity Through Play (Age 2 years and above)</h4>
+                  <br />
                   <section className="course-details__tab-text" id="overview">
-                    <h4>Building a Strong Foundation:</h4>
-                    Our Primary Year Program is designed to foster the
-                    intellectual, social, and emotional growth of children aged
-                    2.5 to 5 years. With a balanced blend of academic and
-                    practical learning experiences, students develop essential
-                    skills and a love for learning that lasts a lifetime.
+                    <h4>Overview:</h4>
+                    <uL>
+                      <li>
+                        <b>Focus:</b> This program creates a warm and nurturing
+                        environment where toddlers can explore, discover, and
+                        build social connections through play.
+                      </li>
+                      <li>
+                        <b>Learning Through Play:</b> Our playgroup curriculum
+                        is designed around the idea that play is the most
+                        effective way for young children to learn. We provide a
+                        variety of engaging activities that stimulate all five
+                        senses.
+                      </li>
+                    </uL>
                   </section>
                   <br />
                   <section className="course-details__tab-text" id="curriculum">
-                    <h4>Our Program Includes:</h4>
+                    <h4>Curriculum:</h4>
                     <ul>
-                      <li>A safe and loving environment.</li>
                       <li>
-                        Small class sizes A variety of age-appropriate
-                        activities.
+                        <b>Sensory Exploration:</b> We offer a variety of
+                        materials and activities that allow children to explore
+                        textures, sounds, colors, and shapes. This helps them
+                        develop their cognitive skills and understanding of the
+                        world around them.{" "}
                       </li>
                       <li>
-                        Experienced and qualified educators A focus on the whole
-                        child
+                        <b>Social Interaction:</b> Through small group
+                        activities and playtime, children learn to share, take
+                        turns, and communicate with their peers. This fosters
+                        social skills and emotional development.
+                      </li>
+                      <li>
+                        <b>Language Development:</b> We incorporate songs,
+                        rhymes, and simple stories into our daily routine. This
+                        helps children develop their listening skills,
+                        vocabulary, and early communication skills.
+                      </li>
+                      <li>
+                        <b>Fine and Gross Motor Skills:</b> Playgroup activities
+                        like building with blocks, playing with dough, and
+                        running around outdoors help children develop the small
+                        and large muscle movements they need for everyday life.
                       </li>
                     </ul>
                   </section>
                   <br />
-                  <section
-                    className="list-unstyled course-details__overview-list"
-                    id="outcomes"
-                  >
-                    <h4>Nurturing Your Child's Potential:</h4>
-                    <p>
-                      The early years of a child's life are a time of tremendous
-                      growth and development. Our early years program provides a
-                      nurturing and stimulating environment where children can
-                      learn and explore at their own pace. Our experienced
-                      educators will guide your child through a variety of
-                      activities that promote social, emotional, cognitive, and
-                      physical development.
-                    </p>
+                  <section className="course-details__tab-text" id="outcomes">
+                    <h4>Outcomes:</h4>
+                    <ul>
+                      <li>Develop a love for learning and exploration.</li>
+                      <li>
+                        Build strong social skills and emotional intelligence.
+                      </li>
+                      <li>
+                        Enhance their communication and language abilities.
+                      </li>
+                      <li>Improve fine and gross motor skills.</li>
+                    </ul>
                   </section>
                 </div>
                 <div

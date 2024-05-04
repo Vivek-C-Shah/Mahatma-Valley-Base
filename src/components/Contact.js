@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import course1 from "../assets/images/course-1-1.jpg";
 
 const Contact = () => {
   const [message, setMessage] = useState("");
@@ -111,7 +112,7 @@ const Contact = () => {
           <div style={{ display: "flex" }}>
             <div className="map-container col-lg-6">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d117498.18953762426!2d72.4832037953829!3d23.030438266198995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x395e85567a2c74a1%3A0xdec09f69079c2e8d!2s1%2C%20Triveni%20Duplex%2C%20Mithakhali%20Cir%2C%20opp.%20Mangal%20Vidhyalay%2C%20Maharashtra%20Society%2C%20Navrangpura%2C%20Ahmedabad%2C%20Gujarat%20380009!3m2!1d23.0304596!2d72.5656054!5e0!3m2!1sen!2sin!4v1702454425718!5m2!1sen!2sin"
+                src={course1}
                 className="google-map__contact"
                 title="template google map"
                 allowFullScreen=""

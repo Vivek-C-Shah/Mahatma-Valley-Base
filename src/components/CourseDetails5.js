@@ -69,44 +69,88 @@ const CourseDetails = () => {
                   role="tabpanel"
                   id="overview"
                 >
+                  <h4>
+                    Preparing Confident Learners for Kindergarten (Age 5 years
+                    and above)
+                  </h4>
+                  <br />
                   <section className="course-details__tab-text" id="overview">
-                    <h4>Building a Strong Foundation:</h4>
-                    Our Primary Year Program is designed to foster the
-                    intellectual, social, and emotional growth of children aged
-                    2.5 to 5 years. With a balanced blend of academic and
-                    practical learning experiences, students develop essential
-                    skills and a love for learning that lasts a lifetime.
+                    <h4>Overview:</h4>
+                    <p>
+                      <b>Focus:</b> Our Senior KG program bridges the gap
+                      between preschool and kindergarten. We provide a
+                      curriculum that equips children with the academic,
+                      social-emotional, and life skills they need to thrive in
+                      the next stage of their education. This program focuses on
+                      building confidence and fostering a sense of independence
+                      in preparation for a smooth transition.
+                    </p>
                   </section>
                   <br />
                   <section className="course-details__tab-text" id="curriculum">
-                    <h4>Our Program Includes:</h4>
+                    <h4>Curriculum:</h4>
                     <ul>
-                      <li>A safe and loving environment.</li>
                       <li>
-                        Small class sizes A variety of age-appropriate
-                        activities.
+                        <b>Advanced Literacy:</b> Children delve deeper into
+                        reading comprehension, mastering phonics sounds and
+                        progressing to more complex stories and writing
+                        exercises.
                       </li>
                       <li>
-                        Experienced and qualified educators A focus on the whole
-                        child
+                        <b> Math Mastery:</b> We solidify math concepts like
+                        multiplication and simple division (optional) through
+                        engaging activities and problem-solving exercises.
+                      </li>
+                      <li>
+                        <b>Science Exploration:</b> Senior KG students take
+                        their scientific curiosity to the next level with
+                        in-depth experiments and projects that encourage
+                        critical thinking and a deeper understanding of the
+                        world around them.
+                      </li>
+                      <li>
+                        <b>Social-Emotional Development:</b> We provide
+                        opportunities for children to develop leadership skills,
+                        conflict resolution techniques, and emotional regulation
+                        through group discussions, role-playing activities, and
+                        social interactions.
+                      </li>
+                      <li>
+                        <b>Preparing for Kindergarten:</b> We help children get
+                        acclimated to the structure and expectations of a
+                        kindergarten classroom by incorporating routines,
+                        independent learning activities, and group
+                        presentations.
                       </li>
                     </ul>
                   </section>
                   <br />
-                  <section
-                    className="list-unstyled course-details__overview-list"
-                    id="outcomes"
-                  >
-                    <h4>Nurturing Your Child's Potential:</h4>
-                    <p>
-                      The early years of a child's life are a time of tremendous
-                      growth and development. Our early years program provides a
-                      nurturing and stimulating environment where children can
-                      learn and explore at their own pace. Our experienced
-                      educators will guide your child through a variety of
-                      activities that promote social, emotional, cognitive, and
-                      physical development.
-                    </p>
+                  <section className="course-details__tab-text" id="outcomes">
+                    <h4>Outcomes:</h4>
+                    <p>The Senior KG program helps children:</p>
+                    <ul>
+                      <li>
+                        Develop strong reading fluency and advanced writing
+                        skills.
+                      </li>
+                      <li>
+                        Master foundational math concepts and explore more
+                        advanced topics.
+                      </li>
+                      <li>
+                        Cultivate a deeper understanding of science and the
+                        scientific method.
+                      </li>
+                      <li>
+                        Gain valuable social-emotional skills for navigating
+                        kindergarten and beyond.
+                      </li>
+                      <li>
+                        Develop basic computer literacy skills (optional
+                        program).
+                      </li>
+                      <li>Feel confident and prepared for the transition.</li>
+                    </ul>
                   </section>
                 </div>
                 <div

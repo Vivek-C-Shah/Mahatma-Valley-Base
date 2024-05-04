@@ -70,37 +70,43 @@ class NavOne extends Component {
             </div>
             <div className="main-navigation">
               <ul className=" navigation-box">
-                <li className="current">
+                {/*  <li className="current">
                   <Link to="/">Home</Link>
-                </li>
-                <li>
-                  <a href="#none">Pages</a>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/about">About Page</Link>
-                    </li>
+        </li>*/}
+                {/*<li>
+                  <a href="#none">About</a>
+      <ul className="sub-menu">*/}
 
-                    <li>
+                <li>
+                  <Link to="/about">About Us</Link>
+                </li>
+
+                {/*<li>
                       <Link to="/faq">FAQ'S</Link>
                     </li>
                   </ul>
-                </li>
-                <li>
+    </li>*/}
+                {/*<li>
                   <a href="/courses">Courses</a>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/courses">Courses</Link>
-                    </li>
+  <ul className="sub-menu">*/}
+                <li>
+                  <Link to="/courses">Programs</Link>
+                </li>
+                {/*
                     <li>
                       <Link to="/course-details">Courses Details</Link>
                     </li>
                   </ul>
-                </li>
+            </li>
+*/}
                 <li>
                   <Link to="/admissions">Admissions</Link>
                 </li>
                 <li>
                   <Link to="/gallery">Gallery</Link>
+                </li>
+                <li>
+                  <Link to="/faq">FAQ'S</Link>
                 </li>
                 <li>
                   <Link to="/contact">Contact</Link>

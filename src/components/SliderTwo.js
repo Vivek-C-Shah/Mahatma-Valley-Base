@@ -43,8 +43,8 @@ const SliderTwo = () => {
                   >
                     Mahatma Valley <br />A Pre School
                   </h3>
-                  <Link to="/about" className="thm-btn banner-two__btn">
-                    Learn More
+                  <Link to="/admissions" className="thm-btn banner-two__btn">
+                    Admissions open
                   </Link>{" "}
                 </div>
               </div>
@@ -70,8 +70,8 @@ const SliderTwo = () => {
                     Read & learn <br />
                     in an easy way
                   </h3>
-                  <Link to="/about" className="thm-btn banner-two__btn">
-                    Learn More
+                  <Link to="/admissions" className="thm-btn banner-two__btn">
+                    Admissions open
                   </Link>{" "}
                 </div>
               </div>
