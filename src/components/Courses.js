@@ -15,7 +15,10 @@ import team6 from "../assets/images/team-1-6.jpg";
 
 const Courses = () => {
   return (
-    <section className="course-one course-page" style={{ fontFamily: "Patrick Hand" }}>
+    <section
+      className="course-one course-page"
+      style={{ fontFamily: "Patrick Hand" }}
+    >
       <div className="container">
         <section
           className="list-unstyled course-details__overview-list pt-2"
@@ -54,7 +57,7 @@ const Courses = () => {
                   <Link to="/course-details">Toddler Program</Link>
                 </h2>
                 <Link to="/course-details" className="course-one__link">
-                  See Preview
+                  More...
                 </Link>
               </div>
             </div>
@@ -76,7 +79,7 @@ const Courses = () => {
                   <Link to="/course-details-two">Playgroup</Link>
                 </h2>
                 <Link to="/course-details-two" className="course-one__link">
-                  See Preview
+                  More...
                 </Link>
               </div>
             </div>
@@ -99,7 +102,7 @@ const Courses = () => {
                   <Link to="/course-details-three">Nursery</Link>
                 </h2>
                 <Link to="/course-details-three" className="course-one__link">
-                  See Preview
+                  More...
                 </Link>
               </div>
             </div>
@@ -126,7 +129,7 @@ const Courses = () => {
                   </Link>
                 </h2>
                 <Link to="/course-details-four" className="course-one__link">
-                  See Preview
+                  More...
                 </Link>
               </div>
             </div>
@@ -151,7 +154,7 @@ const Courses = () => {
                   </Link>
                 </h2>
                 <Link to="/course-details-five" className="course-one__link">
-                  See Preview
+                  More...
                 </Link>
               </div>
             </div>
