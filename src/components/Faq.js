@@ -2,7 +2,7 @@ import React from "react";
 
 const Faq = () => {
   return (
-    <section className="faq-one">
+    <section className="faq-one" style={{ fontFamily: "Patrick Hand" }}>
       <div className="container">
         <div className="row no-gutters">
           <div className="col-lg-6">

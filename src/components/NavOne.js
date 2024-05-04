@@ -70,12 +70,36 @@ class NavOne extends Component {
             </div>
             <div className="main-navigation">
               <ul className=" navigation-box">
+                {/*  <li className="current">
+                  <Link to="/">Home</Link>
+        </li>*/}
+                {/*<li>
+                  <a href="#none">About</a>
+      <ul className="sub-menu">*/}
+
                 <li>
                   <Link to="/about">About Us</Link>
                 </li>
+
+                {/*<li>
+                      <Link to="/faq">FAQ'S</Link>
+                    </li>
+                  </ul>
+    </li>*/}
+                {/*<li>
+                  <a href="/courses">Courses</a>
+  <ul className="sub-menu">*/}
                 <li>
                   <Link to="/courses">Programs</Link>
                 </li>
+                {/*
+                    <li>
+                      <Link to="/course-details">Courses Details</Link>
+                    </li>
+                  </ul>
+            </li>
+*/}
+
                 <li>
                   <Link to="/admissions">Admissions</Link>
                 </li>
@@ -83,10 +107,10 @@ class NavOne extends Component {
                   <Link to="/gallery">Gallery</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Contact Us</Link>
+                  <Link to="/faq">FAQ'S</Link>
                 </li>
                 <li>
-                  <Link to="/faq">FAQs</Link>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </div>

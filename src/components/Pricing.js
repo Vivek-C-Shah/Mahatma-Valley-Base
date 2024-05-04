@@ -34,7 +34,7 @@ const Pricing = () => {
   }
 
   return (
-    <section className="contact-one">
+    <section className="contact-one" style={{ fontFamily: "Patrick Hand" }}>
       <div className="">
       <head dangerouslySetInnerHTML={{ __html: `<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">` }} />
         <h2 className="contact-one__title text-center" style={{ fontFamily: "'Patrick Hand', cursive" }}>Admission Form</h2>

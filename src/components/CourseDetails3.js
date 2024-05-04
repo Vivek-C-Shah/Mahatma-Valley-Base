@@ -67,44 +67,73 @@ const CourseDetails = () => {
                   role="tabpanel"
                   id="overview"
                 >
-                  <section className="course-details__tab-text" id="overview">
-                    <h4>Building a Strong Foundation:</h4>
-                    Our Primary Year Program is designed to foster the
-                    intellectual, social, and emotional growth of children aged
-                    2.5 to 5 years. With a balanced blend of academic and
-                    practical learning experiences, students develop essential
-                    skills and a love for learning that lasts a lifetime.
-                  </section>
+                  <h4>Building a Strong Foundation (Age 3 years and above)</h4>
                   <br />
-                  <section className="course-details__tab-text" id="curriculum">
-                    <h4>Our Program Includes:</h4>
+                  <section className="course-details__tab-text" id="overview">
+                    <h4>Overview:</h4>
                     <ul>
-                      <li>A safe and loving environment.</li>
                       <li>
-                        Small class sizes A variety of age-appropriate
-                        activities.
+                        <b>Focus:</b> Our Nursery program lays the groundwork
+                        for future academic success by nurturing a love for
+                        learning in a play-based environment.
                       </li>
                       <li>
-                        Experienced and qualified educators A focus on the whole
-                        child
+                        <b>Holistic Development: </b>We focus on a holistic
+                        approach to development, addressing children's
+                        intellectual, social, emotional, physical, and creative
+                        needs.
                       </li>
                     </ul>
                   </section>
                   <br />
-                  <section
-                    className="list-unstyled course-details__overview-list"
-                    id="outcomes"
-                  >
-                    <h4>Nurturing Your Child's Potential:</h4>
-                    <p>
-                      The early years of a child's life are a time of tremendous
-                      growth and development. Our early years program provides a
-                      nurturing and stimulating environment where children can
-                      learn and explore at their own pace. Our experienced
-                      educators will guide your child through a variety of
-                      activities that promote social, emotional, cognitive, and
-                      physical development.
-                    </p>
+                  <section className="course-details__tab-text" id="curriculum">
+                    <h4>Curriculum:</h4>
+                    <ul>
+                      <li>
+                        <b> Pre-Literacy Skills:</b> We introduce children to
+                        letters, sounds, and basic concepts like rhyming and
+                        letter recognition through interactive activities like
+                        story time, songs, and games.
+                      </li>
+                      <li>
+                        <b> Early Math: </b>Children learn to count, sort, and
+                        recognize shapes through play-based activities that make
+                        learning math fun and engaging.
+                      </li>
+                      <li>
+                        <b>Creative Expression:</b> We provide opportunities for
+                        children to express themselves creatively through art
+                        projects, music, and dramatic play. This fosters
+                        imagination and problem-solving skills.{" "}
+                      </li>
+                      <li>
+                        <b>Social and Emotional Development:</b> Nursery
+                        provides a safe and supportive environment where
+                        children can learn to share, cooperate, and manage their
+                        emotions through interaction with peers and teachers.
+                      </li>
+                      <li>
+                        <b>Introduction to Indian Culture:</b> We integrate
+                        stories, festivals, and art forms from Indian culture
+                        into our curriculum, fostering a sense of identity and
+                        appreciation for their heritage.
+                      </li>
+                    </ul>
+                  </section>
+                  <br />
+                  <section className="course-details__tab-text" id="outcomes">
+                    <h4>Outcomes:</h4>
+                    <p>Our Nursery program helps children: </p>
+                    <ul>
+                      <li>Develop strong language and communication skills.</li>
+                      <li>Gain a foundation for reading and writing. </li>
+                      <li>
+                        Develop basic math concepts in a fun and interactive
+                        way.{" "}
+                      </li>
+                      <li>Build social skills and emotional intelligence.</li>
+                      <li>Explore and celebrate their Indian heritage.</li>
+                    </ul>
                   </section>
                 </div>
                 <div

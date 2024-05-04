@@ -7,7 +7,7 @@ import CourseDetails from "../components/CourseDetails";
 
 const CoursesPage = () => {
   return (
-    <Layout pageTitle="Mahatma Valley | Course Details">
+    <Layout pageTitle="Mahatma Valley | Program Details">
       <NavOne />
       <CourseDetails />
       <Footer />

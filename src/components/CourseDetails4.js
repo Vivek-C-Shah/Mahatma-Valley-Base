@@ -69,44 +69,82 @@ const CourseDetails = () => {
                   role="tabpanel"
                   id="overview"
                 >
-                  <section className="course-details__tab-text" id="overview">
-                    <h4>Building a Strong Foundation:</h4>
-                    Our Primary Year Program is designed to foster the
-                    intellectual, social, and emotional growth of children aged
-                    2.5 to 5 years. With a balanced blend of academic and
-                    practical learning experiences, students develop essential
-                    skills and a love for learning that lasts a lifetime.
-                  </section>
+                  <h4>
+                    Igniting a Passion for Learning (Age 4 years and above)
+                  </h4>
                   <br />
-                  <section className="course-details__tab-text" id="curriculum">
-                    <h4>Our Program Includes:</h4>
+                  <section className="course-details__tab-text" id="overview">
+                    <h4>Overview:</h4>
                     <ul>
-                      <li>A safe and loving environment.</li>
                       <li>
-                        Small class sizes A variety of age-appropriate
-                        activities.
-                      </li>
-                      <li>
-                        Experienced and qualified educators A focus on the whole
-                        child
+                        <b>Focus:</b> The Junior KG program builds upon the
+                        foundation set in Nursery and ignites a passion for
+                        learning across various subjects.
+                        <li>
+                          We achieve this by introducing more complex concepts
+                          in a fun and engaging way, catering to different
+                          learning styles and fostering a love for exploration
+                          and discovery. Our curriculum aims to not only develop
+                          core academic skills but also nurture a child's
+                          natural curiosity and desire to understand the world
+                          around them.
+                        </li>
                       </li>
                     </ul>
                   </section>
                   <br />
-                  <section
-                    className="list-unstyled course-details__overview-list"
-                    id="outcomes"
-                  >
-                    <h4>Nurturing Your Child's Potential:</h4>
+                  <section className="course-details__tab-text" id="curriculum">
+                    <h4>Curriculum:</h4>
                     <p>
-                      The early years of a child's life are a time of tremendous
-                      growth and development. Our early years program provides a
-                      nurturing and stimulating environment where children can
-                      learn and explore at their own pace. Our experienced
-                      educators will guide your child through a variety of
-                      activities that promote social, emotional, cognitive, and
-                      physical development.
+                      Our curriculum offers a stimulating blend of activities
+                      that cater to different learning styles:{" "}
                     </p>
+                    <ul>
+                      <li>
+                        <b>Literacy Development:</b> Children engage in
+                        activities that enhance reading comprehension, writing
+                        skills, and phonics knowledge.
+                      </li>
+                      <li>
+                        <b>Math Exploration:</b> We go beyond basic math
+                        concepts and introduce addition, subtraction, and more
+                        complex shapes in a fun and engaging way.
+                      </li>
+                      <li>
+                        <b>Science Discovery: </b>Junior KG students participate
+                        in hands-on science experiments that spark curiosity and
+                        encourage exploration of the natural world.
+                      </li>
+                      <li>
+                        <b>Creative Expression: </b>We provide ample
+                        opportunities for children to express themselves
+                        creatively through art, music, and storytelling
+                        activities.
+                      </li>
+                      <li>
+                        <b>Celebrating Indian Culture:</b> Our curriculum
+                        continues to integrate elements of Indian culture,
+                        fostering a sense of belonging and cultural pride.
+                      </li>
+                    </ul>
+                  </section>
+                  <br />
+                  <section className="course-details__tab-text" id="outcomes">
+                    <h4>Outcomes:</h4>
+                    <p>The Junior KG program helps children: </p>
+                    <ul>
+                      <li>Develop strong reading and writing skills.</li>
+                      <li>Gain a solid foundation in math concepts.</li>
+                      <li>Cultivate a love for science and exploration.</li>
+                      <li>
+                        Express themselves creatively and develop critical
+                        thinking skills.
+                      </li>
+                      <li>
+                        Strengthen their cultural identity and appreciation for
+                        Indian heritage.
+                      </li>
+                    </ul>
                   </section>
                 </div>
                 <div
