@@ -116,6 +116,10 @@ const Footer = () => {
               <a href="https://www.instagram.com/mahatma_valley?igsh=MWpxd2QyY2Nnb3c1Yg%3D%3D&utm_source=qr">
                 <i className="fab fa-instagram"></i>
               </a>
+
+              <a href="https://www.linkedin.com/in/mahatma-valley-62a44328b/">
+                <i className="fab fa-linkedin"></i>
+              </a>
             </div>
           </div>
         </div>

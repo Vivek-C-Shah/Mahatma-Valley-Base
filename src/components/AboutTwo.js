@@ -6,11 +6,14 @@ import lcImage1 from "../assets/images/lc-1-1.jpg";
 import lcImage2 from "../assets/images/lc-1-2.jpg";
 import lcImage3 from "../assets/images/lc-1-3.jpg";
 import { Link } from "gatsby";
-import '@fontsource/patrick-hand';
+import "@fontsource/patrick-hand";
 
 const CourseDetails = () => {
   return (
-    <section className="course-details" style={{ fontFamily: "Patrick Hand", fontSize: "22px"}}>
+    <section
+      className="course-details"
+      style={{ fontFamily: "Patrick Hand", fontSize: "22px" }}
+    >
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
@@ -55,13 +58,14 @@ const CourseDetails = () => {
                   <section
                     className="course-details__tab-text pt-2"
                     id="overview"
-                    style={{fontSize: "24px"}}>
+                    style={{ fontSize: "24px" }}
+                  >
                     <h4 className="pb-3 ">
                       <b>
-                        <u style={{fontSize: "28px"}}>About Us:</u>
+                        <u style={{ fontSize: "28px" }}>About Us:</u>
                       </b>
                     </h4>
-                    <p style={{fontSize: "24px"}}>
+                    <p style={{ fontSize: "24px" }}>
                       Welcome to Mahatma Valley, an Innovative Initiative of IIM
                       Ahmedabad Alumni, designed for children's growth and
                       learning life skills. At Mahatma Valley Innovative
@@ -103,42 +107,42 @@ const CourseDetails = () => {
                   <section
                     className="course-details__tab-text pt-2"
                     id="vision"
-                    style={{fontSize: "24px"}}
+                    style={{ fontSize: "24px" }}
                   >
                     <h4 className="pb-3 pt-4">
                       <b>
-                        <u style={{fontSize: "28px"}}>Vision:</u>
+                        <u style={{ fontSize: "28px" }}>Vision:</u>
                       </b>
                     </h4>
-                    <ul>
-                      <li>
-                        At Mahatma Valley we envision cultivating young minds
-                        that are brimming with creativity and independent
-                        thinking, driving mindful action and reflection. We aim
-                        to empower our students to become change-makers and
-                        innovators, equipped with the skills and mindset to make
-                        a positive impact in the world.
-                      </li>
-                      <li>
-                        We aspire to nurture global citizens who transcend
-                        self-concern to embrace their responsibility to
-                        themselves, their community, the environment, and
-                        humanity as a whole. Through our holistic approach to
-                        education, we instill in our students a sense of duty
-                        and compassion, preparing them to make meaningful
-                        contributions to society and lead fulfilling lives.
-                      </li>
-                    </ul>
+                    <p>
+                      At Mahatma Valley we envision cultivating young minds that
+                      are brimming with creativity and independent thinking,
+                      driving mindful action and reflection. We aim to empower
+                      our students to become change-makers and innovators,
+                      equipped with the skills and mindset to make a positive
+                      impact in the world.
+                    </p>
+                    <p>
+                      We aspire to nurture global citizens who transcend
+                      self-concern to embrace their responsibility to
+                      themselves, their community, the environment, and humanity
+                      as a whole. Through our holistic approach to education, we
+                      instill in our students a sense of duty and compassion,
+                      preparing them to make meaningful contributions to society
+                      and lead fulfilling lives.
+                    </p>
                   </section>
                   <br />
                   <section
                     className="course-details__tab-text pt-2"
                     id="outcomes"
-                    style={{fontSize: "24px"}}
+                    style={{ fontSize: "24px" }}
                   >
                     <h4 className="pb-3 pt-4">
                       <b>
-                        <u style={{fontSize: "28px"}}>Curriculum Structure:</u>
+                        <u style={{ fontSize: "28px" }}>
+                          Curriculum Structure:
+                        </u>
                       </b>
                     </h4>
                     <p>
@@ -194,11 +198,13 @@ const CourseDetails = () => {
                   <section
                     className="list-unstyled course-details__overview-list pt-2"
                     id="Student Life"
-                    style={{fontSize: "24px"}}
+                    style={{ fontSize: "24px" }}
                   >
                     <h4 className="pb-3 pt-4">
                       <b>
-                        <u style={{fontSize: "28px"}}>Life At Mahatma Valley</u>
+                        <u style={{ fontSize: "28px" }}>
+                          Life At Mahatma Valley
+                        </u>
                       </b>
                     </h4>
                     <p>
@@ -206,7 +212,7 @@ const CourseDetails = () => {
                       laughter, learning, and new discoveries. Our vibrant
                       community fosters a warm and inclusive atmosphere where
                       children feel safe, valued, and empowered to explore the
-                      world around them. 
+                      world around them.
                     </p>
                   </section>
                 </div>
