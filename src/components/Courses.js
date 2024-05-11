@@ -43,7 +43,7 @@ const Courses = () => {
           <div className="col-lg-4">
             <div className="course-one__single">
               <div className="course-one__image">
-                <img src={course1} alt="" />
+                <img src={course6} alt="" />
               </div>
               <div className="course-one__content">
                 <a href="#none" className="course-one__category">
