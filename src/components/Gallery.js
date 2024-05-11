@@ -62,14 +62,12 @@ const Gallery = () => {
         {images && images.map((item) => {
           return (
             <div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe my-4">
-              <iframe
+              <img
                 src={item.url} // Changed this line
                 className="img img-responsive"
                 height="300px"
                 width="300px"
-                allow="autoplay"
-              >
-              </iframe>
+              />
             </div>
           );
         })}
