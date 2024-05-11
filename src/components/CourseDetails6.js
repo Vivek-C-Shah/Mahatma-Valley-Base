@@ -1,7 +1,7 @@
 import React from "react";
 import team1 from "../assets/images/logo.png";
 import team2 from "../assets/images/team-1-1.jpg";
-import courseD1 from "../assets/images/course-1-1 (Custom).jpg";
+import courseD1 from "../assets/images/course-1-6.jpg";
 import lcImage1 from "../assets/images/course-1-1.jpg";
 import lcImage2 from "../assets/images/course-1-2.jpg";
 import lcImage3 from "../assets/images/course-1-3.jpg";
