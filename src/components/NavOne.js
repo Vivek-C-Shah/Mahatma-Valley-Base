@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
-import logo from "../assets/images/logo-dark.png";
+// import logo from "../assets/images/logo-dark.png";
+import logo from "../assets/images/logo-new.jpg";
 class NavOne extends Component {
   constructor() {
     super();
@@ -59,7 +60,8 @@ class NavOne extends Component {
                 <img
                   src={logo}
                   className="main-logo"
-                  width="180"
+                  // width="75"
+                  height={90}
                   alt="Awesome alter text"
                 />
               </Link>
@@ -78,7 +80,9 @@ class NavOne extends Component {
       <ul className="sub-menu">*/}
 
                 <li>
-                  <Link to="/about"  style={{fontSize: "24px"}}>About Us</Link>
+                  <Link to="/about" style={{ fontSize: "24px" }}>
+                    About Us
+                  </Link>
                 </li>
 
                 {/*<li>
@@ -90,7 +94,9 @@ class NavOne extends Component {
                   <a href="/courses">Courses</a>
   <ul className="sub-menu">*/}
                 <li>
-                  <Link to="/courses" style={{fontSize: "24px"}}>Programs</Link>
+                  <Link to="/courses" style={{ fontSize: "24px" }}>
+                    Programs
+                  </Link>
                 </li>
                 {/*
                     <li>
@@ -101,16 +107,24 @@ class NavOne extends Component {
 */}
 
                 <li>
-                  <Link to="/admissions" style={{fontSize: "24px"}}>Admissions</Link>
+                  <Link to="/admissions" style={{ fontSize: "24px" }}>
+                    Admissions
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/gallery" style={{fontSize: "24px"}}>Gallery</Link>
+                  <Link to="/gallery" style={{ fontSize: "24px" }}>
+                    Gallery
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/faq" style={{fontSize: "24px"}}>FAQs</Link>
+                  <Link to="/faq" style={{ fontSize: "24px" }}>
+                    FAQs
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/contact" style={{fontSize: "24px"}}>Contact Us</Link>
+                  <Link to="/contact" style={{ fontSize: "24px" }}>
+                    Contact Us
+                  </Link>
                 </li>
               </ul>
             </div>
