@@ -15,17 +15,18 @@ import BlogThree from "../components/BlogThree";
 const HomePageTwo = () => {
   return (
     <Layout pageTitle="Mahatma Valley | Home ">
-      <NavTwo />
-      <SliderTwo />
-      <CourseCatTwo />
-      <AboutOne />
+    <p>Your Free Tier has expired, please contact your developer for further information</p>
+      {/* <NavTwo />*/}
+      {/* <SliderTwo />*/}
+      {/* <CourseCatTwo />*/}
+      {/* <AboutOne />*/}
       {/* <CourseTwo /> */}
       {/* <TeamOne /> */}
       {/* <Pricing /> */}
       {/* <MeetingOne /> */}
       {/* <CallToActionTwo /> */}
       {/* <BlogThree /> */}
-      <Footer />
+      {/* <Footer />*/}
     </Layout>
   );
 };
